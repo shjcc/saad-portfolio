@@ -1,7 +1,7 @@
 import { useEffect } from "react"
 import { useNavigate } from "react-router-dom"
 import Typewriter from "typewriter-effect"
-import './loading.css';
+import styles from '../../styles/loading.module.css';
 
 const Loading = () => {
     const navi = useNavigate();
@@ -13,7 +13,7 @@ const Loading = () => {
     }, [navi]);
 
     return (
-    <div className="loading">
+    <div className={styles.loading}>
     <Typewriter options={{
         strings: ['loading data and preparing saad hussain for employability'],
         autoStart:true,
