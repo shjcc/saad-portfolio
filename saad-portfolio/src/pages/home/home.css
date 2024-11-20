@@ -1,0 +1,14 @@
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.content {
+    display: flex;
+
+}
