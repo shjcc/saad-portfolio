@@ -4,39 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="969cbb25-a09f-4416-8059-f3936e76a8ef" name="Changes" comment="">
+    <list default="true" id="969cbb25-a09f-4416-8059-f3936e76a8ef" name="Changes" comment="updated the new template, bringing over files from my old portfolio test">
+      <change afterPath="$PROJECT_DIR$/saad-portfolio/src/styles/skills.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saad-portfolio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saad-portfolio/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/saad-portfolio/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/vite-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/vite-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/pages/home/hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/pages/home/hero.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/pages/home/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/pages/home/home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/pages/home/skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/pages/home/skills.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/pages/loading/loading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/pages/loading/loading.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/styles/loading.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/styles/loading.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "shjcc"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;shjcc&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/shjcc/saad.github.io.git",
-    "accountId": "7161e2be-733a-45dc-a987-89c30c800c35"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/shjcc/saad.github.io.git&quot;,
+    &quot;accountId&quot;: &quot;7161e2be-733a-45dc-a987-89c30c800c35&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2p6HIlUTTHWxhFybICyARbMAzra" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -48,6 +60,9 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/saada/Desktop/web/saad.github.io/saad-portfolio/src/pages/home",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,7 +73,12 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\saada\Desktop\web\saad.github.io\saad-portfolio\src\pages\home" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\saada\Desktop\web\saad.github.io\saad-portfolio\src\pages\loading" />
+      <recent name="C:\Users\saada\Desktop\web\saad.github.io\saad-portfolio\src\styles" />
       <recent name="C:\Users\saada\Desktop\web\saad.github.io\saad-portfolio\src" />
       <recent name="C:\Users\saada\Desktop\web\saad.github.io\saad-portfolio\src\pages" />
     </key>
@@ -78,11 +98,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732079528683</updated>
-      <workItem from="1732079529639" duration="1044000" />
+      <workItem from="1732079529639" duration="13051000" />
+      <workItem from="1732176033089" duration="4319000" />
     </task>
+    <task id="LOCAL-00001" summary="updated the new template, bringing over files from my old portfolio test">
+      <option name="closed" value="true" />
+      <created>1732080736512</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732080736512</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated the new template, bringing over files from my old portfolio test" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated the new template, bringing over files from my old portfolio test" />
   </component>
 </project>

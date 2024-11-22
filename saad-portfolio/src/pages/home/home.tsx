@@ -1,7 +1,7 @@
 import styles from '../../styles/home.module.css';
 import Navbar from '../../components/navbar.tsx';
 import Hero from './hero.tsx'
-// import Skills from './skills.tsx'
+import Skills from './skills.tsx'
 // import Projects from './projects.tsx'
 
 const Home = () => {
@@ -9,7 +9,8 @@ const Home = () => {
         <>
             <Navbar />
             <div className={styles.homeContainer}>
-                <Hero/>
+                <Hero />
+                <Skills />
             </div>
         </>
     );

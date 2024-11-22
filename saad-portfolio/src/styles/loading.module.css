@@ -1,10 +1,29 @@
-.loading {
-    position: fixed;
+.loadingContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
     top: 0;
     left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
     width: 100%;
     height: 100%;
+}
+
+.lineOne, .lineTwo {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    margin: 15px 0;
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.typewriter .Typewriter__cursor {
+    font-size: 2rem;
+    color: #000;
 }
