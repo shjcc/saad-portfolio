@@ -1,6 +1,6 @@
 import styles from '../../styles/projects.module.css';
 import Gif from '../../components/gif.tsx'
-import GameGif from '../../assets/game_gif.gif'
+import GameGif from '../../assets/game.gif'
 
 
 const Project = () => {
