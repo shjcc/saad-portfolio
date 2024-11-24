@@ -1,6 +1,7 @@
 import styles from '../../styles/projects.module.css';
 import Gif from '../../components/gif.tsx'
 import GameGif from '../../assets/game.gif'
+import MobileGif from '../../assets/mobile.gif'
 
 
 const Project = () => {
@@ -12,6 +13,9 @@ const Project = () => {
                 <div className={styles.projectsGameGif}>
                 <Gif src={GameGif} alt="alt text"></Gif>
             </div>
+                <div className={styles.projectsMobileGif}>
+                    <Gif src={MobileGif} alt="alt text"></Gif>
+                </div>
             </div>
         </section>
     )

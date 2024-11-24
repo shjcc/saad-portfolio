@@ -10,6 +10,7 @@ const Home = () => {
             <Navbar />
             <div className={styles.homeContainer}>
                 <Hero />
+                <About />
                 <Skills />
                 <Projects />
             </div>
