@@ -1,6 +1,7 @@
 import styles from '../../styles/home.module.css';
 import Navbar from '../../components/navbar.tsx';
 import Hero from './hero.tsx'
+import About from './about.tsx'
 import Skills from './skills.tsx'
 import Projects from './projects.tsx'
 
