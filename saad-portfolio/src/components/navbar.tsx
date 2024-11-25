@@ -8,6 +8,12 @@ const NavBar = () => {
                   <a href="#hero" className={styles.navLink}>Home</a>
               </li>
               <li className={styles.navItem}>
+                  <a href="#about" className={styles.navLink}>About</a>
+              </li>
+              <li className={styles.navItem}>
+                  <a href="#education" className={styles.navLink}>Education</a>
+              </li>
+              <li className={styles.navItem}>
                   <a href="#skills" className={styles.navLink}>Skills</a>
               </li>
               <li className={styles.navItem}>
