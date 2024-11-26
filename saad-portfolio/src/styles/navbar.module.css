@@ -1,0 +1,33 @@
+.navbar {
+    position: fixed; /* Makes the navbar stay in place */
+    top: 0; /* Positions it at the top of the viewport */
+    left: 0; /* Aligns it to the left edge */
+    width: 100%; /* Makes it span the full width of the page */
+    background-color: #fff; /* Background color to ensure it's visible */
+    z-index: 1000; /* Ensures it stays above other content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for better visibility */
+    padding: 10px 20px; /* Adds some spacing */
+}
+
+.navList {
+    display: flex;
+    justify-content: space-around; /* Space out the items evenly */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navItem {
+    margin: 0;
+}
+
+.navLink {
+    text-decoration: none;
+    color: #333; /* Adjust as needed for your theme */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navLink:hover {
+    color: #007BFF; /* Adjust hover color as desired */
+}

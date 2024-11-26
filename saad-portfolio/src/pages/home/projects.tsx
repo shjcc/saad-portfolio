@@ -12,13 +12,19 @@ const Project = () => {
                 <h1>Projects</h1>
                 <p>take a look at my projects.</p>
                 <div className={styles.projectsGameGif}>
-                    <Gif src={GameGif} alt="alt text"></Gif>
+                    <a href="https://github.com/shjcc/Dr." target="_blank">
+                        <Gif src={GameGif} alt="Game Gif"></Gif>
+                    </a>
                 </div>
                 <div className={styles.projectsMobileGif}>
-                    <Gif src={MobileGif} alt="alt text"></Gif>
+                <a href="https://github.com/shjcc/FlowerStoreApplication" target="_blank">
+                        <Gif src={MobileGif} alt="Mobile Gif"></Gif>
+                    </a>
                 </div>
                 <div className={styles.projectsWebsiteGif}>
-                    <Gif src={WebsiteGif} alt="alt text"></Gif>
+                <a href="https://github.com/shjcc/CMS" target="_blank">
+                    <Gif src={WebsiteGif} alt="WebApp Gif"></Gif>
+                    </a>
                 </div>
             </div>
         </section>
