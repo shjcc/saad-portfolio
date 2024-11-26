@@ -1,7 +1,8 @@
 import styles from '../../styles/projects.module.css';
-import Gif from '../../components/gif.tsx'
-import GameGif from '../../assets/game.gif'
-import MobileGif from '../../assets/mobile.gif'
+import Gif from '../../components/gif.tsx';
+import GameGif from '../../assets/game.gif';
+import MobileGif from '../../assets/mobile.gif';
+import WebsiteGif from '../../assets/website.gif';
 
 // need to update class names for specific tags lie <p>
 const Project = () => {
@@ -11,10 +12,13 @@ const Project = () => {
                 <h1>Projects</h1>
                 <p>take a look at my projects.</p>
                 <div className={styles.projectsGameGif}>
-                <Gif src={GameGif} alt="alt text"></Gif>
-            </div>
+                    <Gif src={GameGif} alt="alt text"></Gif>
+                </div>
                 <div className={styles.projectsMobileGif}>
                     <Gif src={MobileGif} alt="alt text"></Gif>
+                </div>
+                <div className={styles.projectsWebsiteGif}>
+                    <Gif src={WebsiteGif} alt="alt text"></Gif>
                 </div>
             </div>
         </section>
