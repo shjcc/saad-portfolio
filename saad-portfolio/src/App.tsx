@@ -1,18 +1,22 @@
-import './App.css';
-import { Routes, Route } from 'react-router-dom';
-import Home from "./pages/home/home";
-import Loading from "./pages/loading/loading";
-import Entry from "./pages/entry/entry";
+import { useRef } from 'react';
+import Entry from './pages/entry/entry';
+import Home from './pages/home/home';
 
 const App = () => {
-  return (
-    <Routes>
-      <Route path="/" element={<Entry />}/>
-      <Route path="/entry" element={<Entry />} />
-      <Route path="/loading" element={<Loading />} />
-      <Route path="/home" element={<Home />} />
-    </Routes>
-  );
-}
+    const homeRef = useRef<HTMLDivElement>(null);
+
+    const handleScrollToHome = () => {
+        homeRef.current?.scrollIntoView({ behavior: 'smooth' });
+    };
+
+    return (
+        <div>
+            <Entry onButtonClick={handleScrollToHome} />
+            <div ref={homeRef}>
+                <Home />
+            </div>
+        </div>
+    );
+};
 
 export default App;

@@ -1,4 +1,22 @@
-
 .heroContainer {
-    padding-top: 2rem; /* stops the nav bar from blocking title */
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.heroContent {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.heroContent h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.heroContent p {
+    font-size: 1.25rem;
+    color: #555;
+    margin-bottom: 2rem;
 }

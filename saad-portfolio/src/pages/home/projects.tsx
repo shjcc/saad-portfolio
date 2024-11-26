@@ -10,25 +10,28 @@ const Project = () => {
         <section id="projects" className={styles.projectsContainer}>
             <div className={styles.projectsContent}>
                 <h1>Projects</h1>
-                <p>take a look at my projects.</p>
-                <div className={styles.projectsGameGif}>
-                    <a href="https://github.com/shjcc/Dr." target="_blank">
-                        <Gif src={GameGif} alt="Game Gif"></Gif>
-                    </a>
-                </div>
-                <div className={styles.projectsMobileGif}>
-                <a href="https://github.com/shjcc/FlowerStoreApplication" target="_blank">
-                        <Gif src={MobileGif} alt="Mobile Gif"></Gif>
-                    </a>
-                </div>
-                <div className={styles.projectsWebsiteGif}>
-                <a href="https://github.com/shjcc/CMS" target="_blank">
-                    <Gif src={WebsiteGif} alt="WebApp Gif"></Gif>
-                    </a>
+                <p>Take a look at my projects.</p>
+                <div className={styles.projectsGifs}>
+                    <div className={styles.projectGif}>
+                        <a href="https://github.com/shjcc/Dr." target="_blank">
+                            <Gif src={GameGif} alt="Game Gif"></Gif>
+                        </a>
+                    </div>
+                    <div className={styles.projectGif}>
+                        <a href="https://github.com/shjcc/FlowerStoreApplication" target="_blank">
+                            <Gif src={MobileGif} alt="Mobile Gif"></Gif>
+                        </a>
+                    </div>
+                    <div className={styles.projectGif}>
+                        <a href="https://github.com/shjcc/CMS" target="_blank">
+                            <Gif src={WebsiteGif} alt="WebApp Gif"></Gif>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
-    )
-}
+    );
+};
+
 
 export default Project;

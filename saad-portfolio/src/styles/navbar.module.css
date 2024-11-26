@@ -1,17 +1,20 @@
 .navbar {
-    position: fixed; /* Makes the navbar stay in place */
-    top: 0; /* Positions it at the top of the viewport */
-    left: 0; /* Aligns it to the left edge */
-    width: 100%; /* Makes it span the full width of the page */
-    background-color: #fff; /* Background color to ensure it's visible */
-    z-index: 1000; /* Ensures it stays above other content */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for better visibility */
-    padding: 10px 20px; /* Adds some spacing */
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    background: rgba(201, 178, 250, 0.5);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(201, 178, 250, 0.3);
+
 }
 
 .navList {
     display: flex;
-    justify-content: space-around; /* Space out the items evenly */
+    justify-content: space-around;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -23,11 +26,11 @@
 
 .navLink {
     text-decoration: none;
-    color: #333; /* Adjust as needed for your theme */
+    color: #333;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 .navLink:hover {
-    color: #007BFF; /* Adjust hover color as desired */
+    color: #007BFF;
 }

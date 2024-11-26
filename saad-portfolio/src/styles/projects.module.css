@@ -1,0 +1,66 @@
+.projectsContainer {
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.projectsContent {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.projectsContent h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.projectsContent p {
+    font-size: 1.25rem;
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+.projectsGifs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem; /* Adds spacing between GIFs */
+}
+
+.projectGif {
+    flex: 1 1 calc(33.333% - 2rem); /* Ensures 3 items per row with gaps */
+    max-width: 300px; /* Optional: limits the size of each GIF */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectGif a {
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: inline-block;
+}
+
+.projectGif a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.projectGif img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .projectGif {
+        flex: 1 1 100%; /* Full width for smaller screens */
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .projectGif {
+        flex: 1 1 calc(50% - 2rem); /* 2 items per row for tablets */
+    }
+}

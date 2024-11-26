@@ -5,15 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="969cbb25-a09f-4416-8059-f3936e76a8ef" name="Changes" comment="updated the new template, bringing over files from my old portfolio test">
-      <change afterPath="$PROJECT_DIR$/saad-portfolio/src/styles/global.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/components/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/components/navbar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/saad-portfolio/src/pages/entry/entry.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/pages/entry/entry.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/pages/home/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/pages/home/about.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/saad-portfolio/src/pages/home/hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/pages/home/hero.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/pages/home/projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/pages/home/projects.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/styles/entry.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/styles/entry.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/pages/home/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/pages/home/home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/styles/about.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/styles/about.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/styles/education.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/styles/education.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/styles/global.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/styles/global.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/saad-portfolio/src/styles/hero.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/styles/hero.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/saad-portfolio/src/styles/navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/styles/navbar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/styles/projects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/styles/projects.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/styles/skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/styles/skills.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +114,7 @@
       <workItem from="1732413335531" duration="943000" />
       <workItem from="1732516180338" duration="851000" />
       <workItem from="1732576920916" duration="971000" />
-      <workItem from="1732588274645" duration="7166000" />
+      <workItem from="1732588274645" duration="10751000" />
     </task>
     <task id="LOCAL-00001" summary="updated the new template, bringing over files from my old portfolio test">
       <option name="closed" value="true" />
