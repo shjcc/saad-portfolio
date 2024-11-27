@@ -10,21 +10,21 @@ import Projects from './projects.tsx';
 const Home = () => {
     return (
         <div className={styles.homeContainer}>
-            <Navbar />
+            <Navbar/>
             <div id="hero">
-                <Hero />
+                <Hero/>
             </div>
             <div id="about">
-                <About />
+                <About/>
             </div>
             <div id="education">
-                <Education />
+                <Education/>
             </div>
             <div id="skills">
-                <Skills />
+                <Skills/>
             </div>
             <div id="projects">
-                <Projects />
+                <Projects/>
             </div>
         </div>
     );

@@ -38,6 +38,7 @@ const NavBar = () => {
                         </a>
                     </li>
                 ))}
+                <li className={styles.navResume}>Resume</li>
             </ul>
         </nav>
     );

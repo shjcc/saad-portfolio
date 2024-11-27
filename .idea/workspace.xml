@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="969cbb25-a09f-4416-8059-f3936e76a8ef" name="Changes" comment="updated the new template, bringing over files from my old portfolio test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/components/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/components/navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/components/navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/components/navbar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/pages/home/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/pages/home/home.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +110,7 @@
       <workItem from="1732619922963" duration="3497000" />
       <workItem from="1732703941432" duration="1406000" />
       <workItem from="1732705369756" duration="3601000" />
-      <workItem from="1732733145891" duration="2753000" />
+      <workItem from="1732733145891" duration="3853000" />
     </task>
     <task id="LOCAL-00001" summary="updated the new template, bringing over files from my old portfolio test">
       <option name="closed" value="true" />
