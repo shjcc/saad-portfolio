@@ -27,10 +27,6 @@
     font-size: 5rem;
 }
 
-.skillsIconB {
-    width: 5rem;
-}
-
 .skillsAnchor {
     color: black;
 }
@@ -39,9 +35,11 @@
     transition: transform 0.3s ease;
 }
 
-.skillsIcon:hover {
+.skillsIcon:hover, .skillsAnchor:hover {
     transform: translateY(-5px) scale(1.1);
     transition: transform 0.3s ease;
+    color: palevioletred;
+
 }
 
 .skillsHover {
@@ -64,5 +62,6 @@
 .skillsIcon:hover .skillsHover {
     opacity: 1;
     visibility: visible;
+
 }
 
