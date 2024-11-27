@@ -4,12 +4,11 @@ interface EntryProps {
     onButtonClick: () => void;
 }
 
-const Entry: React.FC<EntryProps> = ({ onButtonClick }) => {
+const Entry = ({ onButtonClick }: EntryProps) => {
     return (
         <div className={styles.entryBackground}>
             <h1 className={styles.entryTitle}>
-                hey, i'm saad,
-                check it out
+                <span className={styles.entryWord}>S</span>aad <span className={styles.entryWord}>H</span>ussain
             </h1>
             <button className={styles.entryButton} onClick={onButtonClick}>
                 Turn on

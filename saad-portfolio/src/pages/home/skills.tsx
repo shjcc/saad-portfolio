@@ -9,13 +9,13 @@ const Skills = () => {
             <div className={styles.skillsContent}>
                 <h1 className={styles.skillsTitle}>Skills</h1>
                 <div className={styles.skillsList}>
-                    <FontAwesomeIcon icon={faPython} size="2x"/>
-                    <FontAwesomeIcon icon={faHtml5} size="2x"/>
-                    <FontAwesomeIcon icon={faCss} size="2x"/>
-                    <FontAwesomeIcon icon={faReact} size="2x"/>
-                    <FontAwesomeIcon icon={faJava} size="2x"/>
-                    <FontAwesomeIcon icon={faGitAlt} size="2x"/>
-                    <FontAwesomeIcon icon={faNode} size="2x"/>
+                    <FontAwesomeIcon icon={faPython} />
+                    <FontAwesomeIcon icon={faHtml5} />
+                    <FontAwesomeIcon icon={faCss} />
+                    <FontAwesomeIcon icon={faReact} />
+                    <FontAwesomeIcon icon={faJava} />
+                    <FontAwesomeIcon icon={faGitAlt} />
+                    <FontAwesomeIcon icon={faNode} />
                 </div>
             </div>
         </section>

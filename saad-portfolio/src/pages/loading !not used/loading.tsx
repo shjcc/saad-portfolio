@@ -1,7 +1,7 @@
 import {useEffect, useState} from "react";
 import { useNavigate } from "react-router-dom";
 import Typewriter from "typewriter-effect";
-import styles from '../../styles/loading.module.css';
+import styles from './loading.module.css';
 
 const Loading = () => {
     const navi = useNavigate();
