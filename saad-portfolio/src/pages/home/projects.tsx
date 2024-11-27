@@ -4,6 +4,7 @@ import GameGif from '../../assets/game.gif';
 import MobileGif from '../../assets/mobile.gif';
 import WebsiteGif from '../../assets/website.gif';
 
+
 // need to update class names for specific tags lie <p>
 const Project = () => {
     return (

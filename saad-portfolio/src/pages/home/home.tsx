@@ -6,6 +6,7 @@ import Education from './education.tsx';
 import Skills from './skills.tsx';
 import Projects from './projects.tsx';
 
+
 const Home = () => {
     return (
         <div className={styles.homeContainer}>

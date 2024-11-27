@@ -1,4 +1,5 @@
 import styles from '../../styles/skills.module.css';
+
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faPython, faHtml5, faCss, faReact, faJava, faGitAlt, faNode} from '@fortawesome/free-brands-svg-icons';
 

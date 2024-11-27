@@ -1,5 +1,5 @@
 .entryBackground {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url('../assets/bg.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url('../assets/bg.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
