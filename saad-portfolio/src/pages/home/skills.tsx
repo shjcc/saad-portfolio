@@ -14,49 +14,58 @@ const Skills = () => {
                 <div className={styles.skillsList}>
 
                     <div className={styles.skillsIcon}>
+                        <a className={styles.skillsAnchor} href={"https://www.python.org/"} target="_blank">
                         <FontAwesomeIcon className={styles.skillsIconA} icon={faPython}/>
+                        </a>
                         <span className={styles.skillsHover}>Python</span>
                     </div>
 
                     <div className={styles.skillsIcon}>
-                        <FontAwesomeIcon className={styles.skillsIconB} icon={faHtml5}/>
-                        <span className={styles.skillsHover}>HTML5</span>
-
+                        <a className={styles.skillsAnchor} href={"https://developer.mozilla.org/en-US/docs/Glossary/HTML5"} target="_blank">
+                            <FontAwesomeIcon className={styles.skillsIconB} icon={faHtml5}/>
+                        </a>
+                            <span className={styles.skillsHover}>HTML5</span>
                     </div>
 
                     <div className={styles.skillsIcon}>
-                        <FontAwesomeIcon className={styles.skillsIconC} icon={faCss3Alt}/>
-                        <span className={styles.skillsHover}>CSS3</span>
-
+                        <a className={styles.skillsAnchor} href={"https://developer.mozilla.org/en-US/docs/Web/CSS"} target="_blank">
+                            <FontAwesomeIcon className={styles.skillsIconC} icon={faCss3Alt}/>
+                        </a>
+                            <span className={styles.skillsHover}>CSS3</span>
                     </div>
 
                     <div className={styles.skillsIcon}>
-                        <FontAwesomeIcon className={styles.skillsIconD} icon={faReact}/>
-                        <span className={styles.skillsHover}>React</span>
-
+                        <a className={styles.skillsAnchor} href={"https://react.dev/"} target="_blank">
+                            <FontAwesomeIcon className={styles.skillsIconD} icon={faReact}/>
+                        </a>
+                            <span className={styles.skillsHover}>React</span>
                     </div>
 
                     <div className={styles.skillsIcon}>
-                        <FontAwesomeIcon className={styles.skillsIconG} icon={faNode}/>
-                        <span className={styles.skillsHover}>Node.js</span>
+                        <a className={styles.skillsAnchor} href={"https://nodejs.org/en"} target="_blank">
+                            <FontAwesomeIcon className={styles.skillsIconG} icon={faNode}/>
+                        </a>
+                            <span className={styles.skillsHover}>Node.js</span>
                     </div>
 
                     <div className={styles.skillsIcon}>
-                        <FontAwesomeIcon className={styles.skillsIconE} icon={faJava}/>
-                        <span className={styles.skillsHover}>Java</span>
-
+                        <a className={styles.skillsAnchor} href={"https://www.java.com/en/"} target="_blank">
+                            <FontAwesomeIcon className={styles.skillsIconE} icon={faJava}/>
+                        </a>
+                            <span className={styles.skillsHover}>Java</span>
                     </div>
 
                     <div className={styles.skillsIcon}>
-                        <FontAwesomeIcon className={styles.skillsIconF} icon={faGitAlt}/>
-                        <span className={styles.skillsHover}>Git</span>
-
+                        <a className={styles.skillsAnchor} href={"https://git-scm.com/"} target="_blank">
+                            <FontAwesomeIcon className={styles.skillsIconF} icon={faGitAlt}/>
+                        </a>
+                            <span className={styles.skillsHover}>Git</span>
                     </div>
 
 
                 </div>
             </div>
         </section>
-    )
+)
 }
 export default Skills;

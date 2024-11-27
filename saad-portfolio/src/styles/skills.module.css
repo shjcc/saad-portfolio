@@ -27,10 +27,17 @@
     font-size: 5rem;
 }
 
-.skillsIcon:hover {
-    transform: translateY(-5px); /* Move the icon up slightly to prevent layout shift */
+.skillsAnchor {
+    color: black;
+}
+
+.skillsIcon {
     transition: transform 0.3s ease;
-    cursor: pointer;
+}
+
+.skillsIcon:hover {
+    transform: translateY(-5px) scale(1.1);
+    transition: transform 0.3s ease; 
 }
 
 .skillsHover {

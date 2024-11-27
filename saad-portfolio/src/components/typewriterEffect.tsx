@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Typewriter from "typewriter-effect";
+import styles from './typewriter.module.css'
 
 interface TypewriterProps {
     phrase: string;
@@ -18,16 +19,16 @@ const TypewriterEffect: React.FC<TypewriterProps> = ({ phrase, delay }) => {
     }, [delay]);
 
     return (
-        <div>
+        <div className={styles.typewriterEffect}>
             {showLine && (
                 <Typewriter
                     options={{
                         strings: [phrase],
                         autoStart: true,
-                        loop: true,
+                        loop: false,
                         cursor: "|",
-                        delay: 75,
-                        deleteSpeed: 75,
+                        delay: 100,
+                        deleteSpeed: 999999,
                     }}
                 />
             )}
