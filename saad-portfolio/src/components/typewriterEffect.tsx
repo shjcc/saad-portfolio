@@ -6,7 +6,7 @@ interface TypewriterProps {
     delay: number;
 }
 
-const TypeWriter: React.FC<TypewriterProps> = ({ phrase, delay }) => {
+const TypewriterEffect: React.FC<TypewriterProps> = ({ phrase, delay }) => {
 
     const [showLine, setShowLine] = useState(false);
 
@@ -26,7 +26,7 @@ const TypeWriter: React.FC<TypewriterProps> = ({ phrase, delay }) => {
                         autoStart: true,
                         loop: true,
                         cursor: "|",
-                        delay: delay,
+                        delay: 75,
                         deleteSpeed: 75,
                     }}
                 />
@@ -35,4 +35,4 @@ const TypeWriter: React.FC<TypewriterProps> = ({ phrase, delay }) => {
     );
 };
 
-export default TypeWriter;
+export default TypewriterEffect;
