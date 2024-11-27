@@ -1,5 +1,6 @@
 import styles from '../../styles/entry.module.css';
 import '../../styles/global.module.css';
+
 interface EntryProps {
     onButtonClick: () => void;
 }
