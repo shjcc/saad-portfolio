@@ -1,5 +1,6 @@
 .entryBackground {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url('../assets/bg.png');
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url('../assets/bg.png');*/
+    background: black;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -13,13 +14,11 @@
 
 .entryTitle {
     position: absolute;
-    top: 0%;
-    left: 1%;
+    top: 10%;
     color: white;
     font-size: 3rem;
 }
 .entryWord {
-    color: palevioletred;
 }
 
 .entryButton {
@@ -41,12 +40,12 @@
 .entryButton {
     --thickness: 0.3rem;
     --roundness: 1.2rem;
-    --color: #eff6ff;
+    --color: #000000;
     --opacity: 0.6;
     -webkit-backdrop-filter: blur(100px);
     backdrop-filter: blur(100px);
     background: none;
-    background: hsl(341, 59%, 65%);
+    background: hsl(0, 0%, 100%);
     border: none;
     border-radius: var(--roundness);
     color: var(--color);
@@ -61,7 +60,6 @@
     animation: fadeIn 0.5s;
     animation-delay: 0s; /* 10 seconds */
     animation-fill-mode: forwards;
-
 }
 .entryButton:hover {
     background: hsl(341, 64%, 54%);
@@ -80,14 +78,35 @@
     }
 }
 
-.entryTyping {
-    color: palevioletred;
-    font-size: 2rem;
-    text-align: center;
-    position: absolute;
-    justify-content: space-evenly;
-
-
+.entryTypeBox {
+    position: relative;
+    top: 0%;
+    left: 13%;
+    width: 80%;
+    height: 6rem;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
 }
 
+.entryTyping {
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    color: white;
+    margin: 0.5rem 0;
+    white-space: nowrap;
+}
 
+@media (max-width: 768px) {
+    .entryTypeBox {
+        width: 90%;
+    }
+    .entryTyping {
+        font-size: 1.2rem;
+    }
+}

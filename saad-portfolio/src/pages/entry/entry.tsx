@@ -12,23 +12,23 @@ const Entry = ({ onButtonClick }: EntryProps) => {
             <h1 className={styles.entryTitle}>
                 <span className={styles.entryWord}>S</span>aad <span className={styles.entryWord}>H</span>ussain
             </h1>
-
+            <div className={styles.entryTypeBox}>
             <p className={styles.entryTyping}>
                 <TypewriterEffect phrase="Welcome user..." delay={500}/>
             </p>
 
-            {/*<p className={styles.entryTyping}>*/}
-            {/*    <TypewriterEffect phrase="Loading portfolio..." delay={3000}/>*/}
-            {/*</p>*/}
+            <p className={styles.entryTyping}>
+                <TypewriterEffect phrase="Loading portfolio..." delay={3500}/>
+            </p>
 
-            {/*<p className={styles.entryTyping}>*/}
-            {/*    <TypewriterEffect phrase="Entrance granted..." delay={5500}/>*/}
-            {/*</p>*/}
+            <p className={styles.entryTyping}>
+                <TypewriterEffect phrase="Entrance granted..." delay={6500}/>
+            </p>
 
-            {/*<p className={styles.entryTyping}>*/}
-            {/*    <TypewriterEffect phrase="Finding button..." delay={7500}/>*/}
-            {/*</p>*/}
-
+            <p className={styles.entryTyping}>
+                <TypewriterEffect phrase="Finding button..." delay={8500}/>
+            </p>
+            </div>
 
             <button className={styles.entryButton} onClick={onButtonClick}>
                 Turn on
