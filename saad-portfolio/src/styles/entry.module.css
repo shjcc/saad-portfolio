@@ -1,9 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&family=Nanum+Myeongjo:wght@400;700;800&family=PT+Sans&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Gothic+A1&family=Nanum+Myeongjo:wght@400;700;800&family=PT+Sans&family=VT323&display=swap');
+
 .entryBackground {
-    /*background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url('../assets/bg.png');*/
-    background: black;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: #333333;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -15,10 +14,16 @@
 .entryTitle {
     position: absolute;
     top: 10%;
-    color: white;
+    color: ghostwhite;
     font-size: 3rem;
-}
-.entryWord {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+    visibility: hidden;
+    opacity: 0;
+    animation: fadeIn 2s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
 }
 
 .entryButton {
@@ -57,8 +62,8 @@
     padding: 0.8rem 3rem;
     position: absolute;
     bottom : 1rem;
-    animation: fadeIn 0.5s;
-    animation-delay: 0s; /* 10 seconds */
+    animation: fadeIn 1.5s;
+    animation-delay: 0s; /* 12 seconds */
     animation-fill-mode: forwards;
 }
 .entryButton:hover {
@@ -80,8 +85,8 @@
 
 .entryTypeBox {
     position: relative;
-    top: 0%;
-    left: 13%;
+    bottom: 50px;
+    left: 155px; /* 215px for center*/
     width: 80%;
     height: 6rem;
     max-width: 600px;
@@ -95,11 +100,14 @@
 
 .entryTyping {
     position: relative;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.2rem;
-    color: white;
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: ghostwhite;
     margin: 0.5rem 0;
     white-space: nowrap;
+
 }
 
 @media (max-width: 768px) {

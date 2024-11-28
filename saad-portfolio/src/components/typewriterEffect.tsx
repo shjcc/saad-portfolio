@@ -27,7 +27,7 @@ const TypewriterEffect: React.FC<TypewriterProps> = ({ phrase, delay }) => {
                         autoStart: true,
                         loop: false,
                         cursor: "|",
-                        delay: 100,
+                        delay: 80,
                         deleteSpeed: 999999,
                     }}
                 />

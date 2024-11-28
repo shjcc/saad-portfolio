@@ -1,0 +1,1 @@
+.entryTyping + can choose a different colour
