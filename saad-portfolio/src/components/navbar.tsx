@@ -26,7 +26,7 @@ const NavBar = () => {
     return (
         <nav className={styles.navbar}>
             <ul className={styles.navList}>
-                {['hero', 'about', 'education', 'skills', 'projects'].map((section) => (
+                {['home', 'about', 'education', 'skills', 'projects'].map((section) => (
                     <li key={section} className={styles.navItem}>
                         <a
                             href={`#${section}`}

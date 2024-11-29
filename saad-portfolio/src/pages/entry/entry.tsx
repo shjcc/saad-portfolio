@@ -2,39 +2,36 @@ import styles from '../../styles/entry.module.css';
 import '../../styles/global.module.css';
 import TypewriterEffect from "../../components/typewriterEffect.tsx";
 
-interface EntryProps {
-    onButtonClick: () => void;
-}
-
-const Entry = ({onButtonClick}: EntryProps) => {
+const Entry = () => {
     return (
         <div className={styles.entryBackground}>
-            <h1 className={styles.entryTitle}>Saad Hussain</h1>
+            {/*<h1 className={styles.entryTitle}>Saad Hussain</h1>*/}
             <div className={styles.entryTypeBox}>
+                <p className={styles.entryTypingName}>
+                    <TypewriterEffect phrase="User: Saad_Hussain" delay={0}/>
+                </p>
                 <p className={styles.entryTyping}>
-                    <TypewriterEffect phrase="Running: portfolio.exe version_2024..." delay={1000}/>
+                    <TypewriterEffect phrase="Running: portfolio.exe..." delay={1000}/>
                 </p>
 
                 <p className={styles.entryTyping}>
-                    <TypewriterEffect phrase=">> done..." delay={4500}/>
+                    <TypewriterEffect phrase=">> done..." delay={2500}/>
                 </p>
 
                 <p className={styles.entryTyping}>
-                    <TypewriterEffect phrase="Running: locate_button.exe..." delay={5500}/>
+                    <TypewriterEffect phrase="Projects: [OK]..." delay={3000}/>
                 </p>
 
                 <p className={styles.entryTyping}>
-                    <TypewriterEffect phrase="Completed: displaying button.." delay={8000}/>
+                    <TypewriterEffect phrase=">> enjoy_your_visit..." delay={4000}/>
                 </p>
 
                 <p className={styles.entryTyping}>
-                    <TypewriterEffect phrase=">> enjoy_your_visit..." delay={10500}/>
+                    <TypewriterEffect phrase="ERROR: !@888888!@#@JASPKMDPIWQzzzzzzzz*W(E*(!@NDNNDDND" delay={5000}/>
                 </p>
             </div>
 
-            <button className={styles.entryButton} onClick={onButtonClick}>
-                Turn on
-            </button>
+            {/*<button className={styles.entryButton} onClick={onButtonClick}>continue</button>*/}
         </div>
     );
 };
