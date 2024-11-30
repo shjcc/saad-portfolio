@@ -27,11 +27,15 @@ const NavBar = () => {
 
     return (
         <motion.nav className={styles.navbar}
-                    initial={{opacity: 0, y: 0 }}
-                    whileInView={{opacity: 1, y: -0, transition: { delay: 0.2, duration: 0.5 }}}
-                    viewport={ {once: true, amount: .5}}
+                    initial={{opacity: 0, x: -50 }}
+                    whileInView={{opacity: 1, x: 0, transition: { delay: 0.2, duration: 0.5 }}}
+                    viewport={ {once: false, amount: .5}}
         >
-            <ul className={styles.navList}>
+            <motion.ul className={styles.navList}
+                       initial={{opacity: 0, x: -50 }}
+                       whileInView={{opacity: 1, x: 0, transition: { delay: 0.9, duration: 0.5 }}}
+                       viewport={ {once: false, amount: .5}}
+            >
                 {['home', 'about', 'education', 'skills', 'projects'].map((section) => (
                     <li key={section} className={styles.navItem}>
                         <a
@@ -44,7 +48,7 @@ const NavBar = () => {
                         </a>
                     </li>
                 ))}
-            </ul>
+            </motion.ul>
         </motion.nav>
     );
 };

@@ -8,11 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/saad-portfolio/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/saad-portfolio/src/components/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/components/navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/pages/entry/entry.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/pages/entry/entry.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/pages/home/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/pages/home/about.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/pages/home/hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/pages/home/hero.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/styles/about.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/styles/about.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/styles/hero.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/styles/hero.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +113,7 @@
       <workItem from="1732733145891" duration="14129000" />
       <workItem from="1732771121222" duration="4236000" />
       <workItem from="1732872267015" duration="3299000" />
-      <workItem from="1732932227559" duration="13029000" />
+      <workItem from="1732932227559" duration="14490000" />
     </task>
     <task id="LOCAL-00001" summary="updated the new template, bringing over files from my old portfolio test">
       <option name="closed" value="true" />
