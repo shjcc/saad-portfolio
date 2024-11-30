@@ -19,7 +19,7 @@ const Entry = () => {
                 </p>
 
                 <p className={styles.entryTyping}>
-                    <TypewriterEffect phrase="projects: [load]..." delay={2800}/>
+                    <TypewriterEffect phrase="projects: [ok]..." delay={2800}/>
                 </p>
 
                 <p className={styles.entryTyping}>

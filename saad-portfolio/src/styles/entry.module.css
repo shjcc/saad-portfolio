@@ -74,7 +74,7 @@
 .entryTypeBox {
     position: relative;
     bottom: 210px;
-    left: -300px; /* 215px for center*/
+    right: 25vw; /* 215px for center*/
     width: 80%;
     height: 6rem;
     max-width: 600px;
