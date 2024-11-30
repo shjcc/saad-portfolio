@@ -1,20 +1,13 @@
-import { useRef } from 'react';
 import Entry from './pages/entry/entry';
 import Home from './pages/home/home';
 
-const App = () => {
-    const homeRef = useRef<HTMLDivElement>(null);
 
-    const handleScrollToHome = () => {
-        homeRef.current?.scrollIntoView({ behavior: 'smooth' });
-    };
+const App = () => {
 
     return (
         <div>
-            <Entry onButtonClick={handleScrollToHome} />
-            <div ref={homeRef}>
+            <Entry />
                 <Home />
-            </div>
         </div>
     );
 };

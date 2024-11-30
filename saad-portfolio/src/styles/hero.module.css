@@ -1,8 +1,9 @@
 .heroContainer {
-    background-color: #f9f9f9;
-    margin-top: 12rem;
-    padding-bottom: calc(25%);
-    padding-left: calc(25%);
+    padding: 20rem 2rem;
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .heroContent {
@@ -24,4 +25,13 @@
     font-size: 1.25rem;
     color: #555;
     margin-bottom: 2rem;
+}
+
+.heroImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width:auto;
+    height: 250px;
 }

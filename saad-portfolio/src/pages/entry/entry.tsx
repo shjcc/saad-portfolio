@@ -7,7 +7,6 @@ import { faSortDown } from "@fortawesome/free-solid-svg-icons";
 const Entry = () => {
     return (
         <div className={styles.entryBackground}>
-            {/*<h1 className={styles.entryTitle}>Saad Hussain</h1>*/}
             <div className={styles.entryTypeBox}>
                 <p className={styles.entryTypingName}>
                     <TypewriterEffect phrase="User: Saad_Hussain" delay={0}/>
@@ -29,7 +28,7 @@ const Entry = () => {
                 </p>
 
                 <p className={styles.entryTyping}>
-                    <TypewriterEffect phrase="error: nsaifunwenf2938nfn2efnufnndlsf222222zdizansodfnqjefn " delay={4500}/>
+                    <TypewriterEffect phrase="error: !!!131232@92n813192(*@Q*(#(*@naskj@*(!((!*@D@!@&&&&# " delay={4500}/>
                 </p>
             </div>
 

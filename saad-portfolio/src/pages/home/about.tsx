@@ -21,8 +21,8 @@ const About = () => {
                     I am a recent graduate from La Trobe University, however I am a firm believer in the philosophy that education does not stop after graduation.
                     I earned a degree in Information Technology with a major in software engineering.
                     With a personal passion for web development and machine learning, the unique blend of creativity and problem-solving
-                    within coding never fails to excite and motivate me go beyond my limits.
-                    <br/>When I'm not at my computer, I like to learn new cuisines to cook and maintain my Duolingo streak for Spanish. I am also interested in movies and music -almost too much!
+                    within coding never fails to excite and motivate me to go beyond my limits.
+                    <br/>When I'm not at my computer, I like to learn new cuisines to cook and maintain my Duolingo streak for Spanish. I also enjoy watching (too many) movies, and increasing my spotify hours!
                 </motion.p>
             </div>
         </section>

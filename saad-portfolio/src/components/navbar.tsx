@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import styles from './navbar.module.css';
 import '../styles/global.module.css';
+import { motion } from 'framer-motion';
+
 
 const NavBar = () => {
     const [activeSection, setActiveSection] = useState<string>('hero');
@@ -24,7 +26,11 @@ const NavBar = () => {
     }, []);
 
     return (
-        <nav className={styles.navbar}>
+        <motion.nav className={styles.navbar}
+                    initial={{opacity: 0, y: 0 }}
+                    whileInView={{opacity: 1, y: -0, transition: { delay: 0.2, duration: 0.5 }}}
+                    viewport={ {once: true, amount: .5}}
+        >
             <ul className={styles.navList}>
                 {['home', 'about', 'education', 'skills', 'projects'].map((section) => (
                     <li key={section} className={styles.navItem}>
@@ -39,7 +45,7 @@ const NavBar = () => {
                     </li>
                 ))}
             </ul>
-        </nav>
+        </motion.nav>
     );
 };
 
