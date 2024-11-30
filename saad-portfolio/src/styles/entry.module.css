@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1&family=Nanum+Myeongjo:wght@400;700;800&family=PT+Sans&family=VT323&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Gothic+A1&family=Nanum+Myeongjo:wght@400;700;800&family=Oswald:wght@200..700&family=PT+Sans&family=VT323&display=swap');
+
 .entryBackground {
     background-color: whitesmoke;
     height: 100vh;
@@ -26,58 +27,13 @@
     animation-fill-mode: forwards;
 }
 
-.entryButton {
-    -webkit-tap-highlight-color: transparent;
-    -webkit-appearance: button;
-    background-color: #000;
-    background-image: none;
-    color: #fff;
-    font-size: 100%;
-    font-weight: 900;
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
-    text-transform: uppercase;
-    visibility: hidden;
-    opacity: 0;
-}
-
-.entryButton {
-    --thickness: 0.3rem;
-    --roundness: 1.2rem;
-    --color: #000000;
-    --opacity: 0.6;
-    -webkit-backdrop-filter: blur(100px);
-    backdrop-filter: blur(100px);
-    background: none;
-    background: hsl(0, 0%, 100%);
-    border: none;
-    border-radius: var(--roundness);
-    color: var(--color);
-    cursor: pointer;
-    display: block;
-    font-size: 1rem;
-    font-weight: 500;
-    margin-top: 10rem;
-    padding: 0.8rem 3rem;
-    position: absolute;
-    bottom : 1rem;
-    animation: fadeIn 1.5s;
-    animation-delay: 0s; /* 12 seconds */
-    animation-fill-mode: forwards;
-}
-.entryButton:hover {
-    background: hsl(341, 64%, 54%);
-    filter: brightness(1.2);
-}
-
 .entryTypeBox {
-    position: relative;
-    bottom: 210px;
-    right: 25vw; /* 215px for center*/
+    position: absolute; /* absolute*/
+    top: calc(2%); /* bottom: 190px*/
+    left: calc(2%); /* right: 25vw*/
+    max-width: 600px;
     width: 80%;
     height: 6rem;
-    max-width: 600px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -102,6 +58,34 @@
     color: rebeccapurple;
 }
 
+.entryIcon {
+    position: absolute;
+    bottom: calc(7%);
+    left: calc(3%);
+    height: 5rem;
+    opacity: 0;
+    animation-name: fadeIn, blink;
+    animation-duration: 1.5s;
+    animation-delay: 5.5s,6.0s ;
+    animation-iteration-count: 1, infinite;
+}
+
+.entryIconText {
+    position: absolute;
+    top: calc(91%);
+    left: calc(1%);
+    height: 5rem;
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3rem;
+    color: black;
+    opacity: 0;
+    animation: fadeIn forwards;
+    animation-duration: 1.5s;
+    animation-delay: 5.5s;
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -114,11 +98,27 @@
     }
 }
 
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/*shrink for smaller screens*/
 @media (max-width: 768px) {
     .entryTypeBox {
         width: 90%;
     }
-    .entryTyping {
+    .entryTyping, .entryTypingName {
         font-size: 1.2rem;
+    }
+    .entryIcon {
+        height: 1.2rem;
     }
 }

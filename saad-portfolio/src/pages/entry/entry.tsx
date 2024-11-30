@@ -1,6 +1,8 @@
 import styles from '../../styles/entry.module.css';
 import '../../styles/global.module.css';
 import TypewriterEffect from "../../components/typewriterEffect.tsx";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSortDown } from "@fortawesome/free-solid-svg-icons";
 
 const Entry = () => {
     return (
@@ -27,11 +29,12 @@ const Entry = () => {
                 </p>
 
                 <p className={styles.entryTyping}>
-                    <TypewriterEffect phrase="error: nsaifunwenf2938nfn2efnufnndlsf222222zdizansodfnqjefn " delay={5300}/>
+                    <TypewriterEffect phrase="error: nsaifunwenf2938nfn2efnufnndlsf222222zdizansodfnqjefn " delay={4500}/>
                 </p>
             </div>
 
-            {/*<button className={styles.entryButton} onClick={onButtonClick}>continue</button>*/}
+            <FontAwesomeIcon className={styles.entryIcon} icon={faSortDown} />
+            <p className={styles.entryIconText}>scroll to continue</p>
         </div>
     );
 };
