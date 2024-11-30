@@ -28,7 +28,7 @@ const NavBar = () => {
     return (
         <motion.nav className={styles.navbar}
                     initial={{opacity: 0, x: -50 }}
-                    whileInView={{opacity: 1, x: 0, transition: { delay: 0.2, duration: 0.5 }}}
+                    whileInView={{opacity: 1, x: 0, transition: { delay: 1.2, duration: 0.5 }}}
                     viewport={ {once: false, amount: .5}}
         >
             <motion.ul className={styles.navList}
@@ -36,7 +36,7 @@ const NavBar = () => {
                        whileInView={{opacity: 1, x: 0, transition: { delay: 0.9, duration: 0.5 }}}
                        viewport={ {once: false, amount: .5}}
             >
-                {['home', 'about', 'education', 'skills', 'projects'].map((section) => (
+                {['about', 'education', 'skills', 'projects'].map((section) => (
                     <li key={section} className={styles.navItem}>
                         <a
                             href={`#${section}`}

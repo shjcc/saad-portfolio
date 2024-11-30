@@ -1,7 +1,5 @@
 import styles from '../../styles/hero.module.css';
 import Typewriter from "typewriter-effect";
-import selfie from "../../assets/profile.jpg";
-
 
 const Hero = () => {
     return (
@@ -21,7 +19,6 @@ const Hero = () => {
                 </h1>
                 <h2 className={styles.heroPronounce}>[sah-d who-sayn] <i>noun</i></h2>
                 <p className={styles.heroDefinition}>Meaning of "Felicity" or "good fortune" </p>
-                <img src={selfie} alt="Saad's Picture" className={styles.heroImg} />
             </div>
         </section>
     )

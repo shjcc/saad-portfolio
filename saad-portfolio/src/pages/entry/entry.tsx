@@ -28,7 +28,7 @@ const Entry = () => {
                 </p>
 
                 <p className={styles.entryTyping}>
-                    <TypewriterEffect phrase="error: !!!131232@92n813192(*@Q*(#(*@naskj@*(!((!*@D@!@&&&&# " delay={4500}/>
+                    <TypewriterEffect phrase="error: !!!131232@92n813192(*@Q*(#(*@naskj@*(!((" delay={4500}/>
                 </p>
             </div>
 

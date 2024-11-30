@@ -1,7 +1,6 @@
 import Entry from './pages/entry/entry';
 import Home from './pages/home/home';
 
-
 const App = () => {
 
     return (

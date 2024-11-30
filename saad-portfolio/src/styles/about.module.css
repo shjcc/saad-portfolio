@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Gothic+A1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nanum+Myeongjo:wght@400;700;800&family=Oswald:wght@200..700&family=PT+Sans&family=VT323&display=swap');
 
 .aboutContainer {
-    padding: 4rem 2rem;
+    padding: 6rem 2rem;
     background-color: ghostwhite;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
+    gap: 2rem;
 }
 
 .aboutContent {
-    max-width: 800px;
+    flex: 1;
+    max-width: calc(50%);
     margin-left: 5%;
     text-align: left;
 }
@@ -42,16 +44,32 @@
     font-style: normal;
 }
 
+.aboutImgBox {
+    flex: 1; /* Ensure equal distribution of width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutImg {
+    max-width: 90%; /* Keep image responsive */
+    height: auto;
+    border-radius: 50%; /* Optional: make it circular */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
 @media (max-width: 768px) {
     .aboutContainer {
-        width: 90%;
+        flex-direction: column; /* Stack content and image */
+        align-items: center;
+        gap: 1.5rem; /* Reduce spacing for smaller screens */
     }
-    .aboutDescription {
-        font-size: 0.8rem;
+    .aboutContent {
+        max-width: 100%;
+        text-align: center; /* Center-align text for smaller screens */
+        margin: 0;
     }
-
-    .aboutTitle {
-        font-size: 1.5rem;
+    .aboutImg {
+        max-width: 70%; /* Resize the image for smaller screens */
     }
-
 }
