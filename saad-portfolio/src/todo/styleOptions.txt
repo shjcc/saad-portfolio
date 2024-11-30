@@ -1,1 +1,3 @@
 .entryTyping + can choose a different colour
+
+    background-color: ghostwhite;

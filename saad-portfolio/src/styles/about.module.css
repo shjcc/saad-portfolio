@@ -1,22 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Gothic+A1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nanum+Myeongjo:wght@400;700;800&family=Oswald:wght@200..700&family=PT+Sans&family=VT323&display=swap');
+
 .aboutContainer {
     padding: 4rem 2rem;
-    background-color: #f9f9f9;
-    text-align: center;
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .aboutContent {
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 800px;
+    margin-left: 5%;
+    text-align: left;
 }
 
-.aboutContent h1 {
+.aboutContent:after {
+    content: "";
+    display: block;
+    margin: 2rem auto;
+    width: 60%;
+    padding-top: 20px;
+    border-bottom: 1px solid black;
+}
+
+.aboutTitle {
     font-size: 2.5rem;
     color: #333;
     margin-bottom: 1rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-style: normal;
 }
 
-.aboutContent p {
+.aboutDescription {
     font-size: 1.25rem;
     color: #555;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    line-height: 1.5;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (max-width: 768px) {
+    .aboutContainer {
+        width: 90%;
+    }
+    .aboutDescription {
+        font-size: 0.8rem;
+    }
+
+    .aboutTitle {
+        font-size: 1.5rem;
+    }
+
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

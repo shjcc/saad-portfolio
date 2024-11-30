@@ -7,7 +7,7 @@ const About = () => {
             <div className={styles.aboutContent}>
                 <h1 className={styles.aboutTitle}>About Me</h1>
                 <p className={styles.aboutDescription}>
-                    I am a recent graduate from La Trobe University, however I and committed to the philosophy of being a life-long student of knowledge.
+                    I am a recent graduate from La Trobe University, however I and committed to the philosophy of constantly educating myself.
                     I earned a degree in Information Technology with a major in software engineering.
                     With a personal passion for web development and machine learning, the unique blend of creativity and problem-solving
                     within coding never fails to excite and motivate me go beyond my limits.

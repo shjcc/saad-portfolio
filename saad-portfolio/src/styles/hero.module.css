@@ -1,6 +1,8 @@
 .heroContainer {
-    padding: 8rem 2rem;
     background-color: #f9f9f9;
+    margin-top: 12rem;
+    padding-bottom: calc(25%);
+    padding-left: calc(25%);
 }
 
 .heroContent {
