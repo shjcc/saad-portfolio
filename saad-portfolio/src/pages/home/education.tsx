@@ -11,15 +11,15 @@ const Education = () => {
                     <br/>Academic Integrity recipient - 2023
                     <br/>Received 'Top 10% of cohort' within Professional Software Development
                 </p>
+                <p className={styles.educationListTitle}>Some of my classes include:</p>
                 <ul className={styles.educationList}>
-                    <li>Academic Integrity recipient - 2023</li>
-                    <li>Top 10% of cohort for Professional Software Development</li>
                     <li>Algorithms and Data Structures</li>
                     <li>UI/UX Design</li>
                     <li>OOP Programming</li>
                     <li>Data Visualization</li>
                     <li>System Analysis and Design</li>
                     <li>Mobile App Development</li>
+                    <li>Machine Learning</li>
                     <li>Machine Learning</li>
                 </ul>
             </div>

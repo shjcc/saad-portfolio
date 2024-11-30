@@ -1,22 +1,24 @@
-.educationContainer {
-    padding: 4rem 2rem;
-    background-color: #f9f9f9;
-    text-align: center;
+
+.educationList {
+    list-style: none; /* Removes default list styling */
+    padding: 0; /* Removes padding */
+    margin: 0 auto; /* Centers the list */
+    display: grid; /* Uses grid for neat list alignment */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 1rem; /* Spacing between items */
 }
 
-.educationContent {
-    max-width: 1200px;
-    margin: 0 auto;
+.educationList li {
+    font-size: 1rem; /* Standard font size for list items */
+    padding: 0.5rem 1rem; /* Space around text for neatness */
+    border: 1px solid #e0e0e0; /* Adds border for structure */
+    border-radius: 8px; /* Rounds the corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-color: #f9f9f9; /* Light gray background for list items */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth hover effect */
 }
 
-.educationContent h1 {
-    font-size: 2.5rem;
-    color: #333;
-    margin-bottom: 1rem;
-}
-
-.educationContent p {
-    font-size: 1.25rem;
-    color: #555;
-    margin-bottom: 2rem;
+.educationList li:hover {
+    transform: translateY(-4px); /* Lift effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
 }
