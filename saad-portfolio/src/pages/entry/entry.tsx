@@ -11,23 +11,23 @@ const Entry = () => {
                     <TypewriterEffect phrase="User: Saad_Hussain" delay={0}/>
                 </p>
                 <p className={styles.entryTyping}>
-                    <TypewriterEffect phrase="Running: portfolio.exe..." delay={1000}/>
+                    <TypewriterEffect phrase="running: portfolio.exe..." delay={1000}/>
                 </p>
 
                 <p className={styles.entryTyping}>
-                    <TypewriterEffect phrase=">> done..." delay={2500}/>
+                    <TypewriterEffect phrase=">> done..." delay={2000}/>
                 </p>
 
                 <p className={styles.entryTyping}>
-                    <TypewriterEffect phrase="Projects: [OK]..." delay={3000}/>
+                    <TypewriterEffect phrase="projects: [load]..." delay={2800}/>
                 </p>
 
                 <p className={styles.entryTyping}>
-                    <TypewriterEffect phrase=">> enjoy_your_visit..." delay={4000}/>
+                    <TypewriterEffect phrase=">> enjoy_your_stay..." delay={3800}/>
                 </p>
 
                 <p className={styles.entryTyping}>
-                    <TypewriterEffect phrase="ERROR: !@888888!@#@JASPKMDPIWQzzzzzzzz*W(E*(!@NDNNDDND" delay={5000}/>
+                    <TypewriterEffect phrase="error: nsaifunwenf2938nfn2efnufnndlsf222222zdizansodfnqjefn " delay={5300}/>
                 </p>
             </div>
 

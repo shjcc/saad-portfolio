@@ -87,7 +87,7 @@
     text-align: left;
 }
 
-.entryTyping, .entryTypingName , .entryTypingError {
+.entryTyping, .entryTypingName {
     position: relative;
     font-family: "VT323", monospace;
     font-weight: 400;

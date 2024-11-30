@@ -6,13 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="969cbb25-a09f-4416-8059-f3936e76a8ef" name="Changes" comment="updated the new template, bringing over files from my old portfolio test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/components/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/components/navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/components/typewriterEffect.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/components/typewriterEffect.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/assets/bg.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/saad-portfolio/src/pages/entry/entry.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/pages/entry/entry.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/pages/home/hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/pages/home/hero.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/saad-portfolio/src/styles/entry.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/styles/entry.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/styles/hero.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/styles/hero.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/todo/toDo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/todo/toDo.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +113,8 @@
       <workItem from="1732705369756" duration="3601000" />
       <workItem from="1732733145891" duration="14129000" />
       <workItem from="1732771121222" duration="4236000" />
-      <workItem from="1732872267015" duration="2126000" />
+      <workItem from="1732872267015" duration="3299000" />
+      <workItem from="1732932227559" duration="810000" />
     </task>
     <task id="LOCAL-00001" summary="updated the new template, bringing over files from my old portfolio test">
       <option name="closed" value="true" />
