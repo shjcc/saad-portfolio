@@ -45,31 +45,31 @@
 }
 
 .aboutImgBox {
-    flex: 1; /* Ensure equal distribution of width */
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .aboutImg {
-    max-width: 90%; /* Keep image responsive */
+    max-width: 75%;
     height: auto;
-    border-radius: 50%; /* Optional: make it circular */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 768px) {
     .aboutContainer {
-        flex-direction: column; /* Stack content and image */
+        flex-direction: column;
         align-items: center;
-        gap: 1.5rem; /* Reduce spacing for smaller screens */
+        gap: 1.5rem;
     }
     .aboutContent {
         max-width: 100%;
-        text-align: center; /* Center-align text for smaller screens */
+        text-align: center;
         margin: 0;
     }
     .aboutImg {
-        max-width: 70%; /* Resize the image for smaller screens */
+        max-width: 70%;
     }
 }

@@ -3,6 +3,8 @@ import '../../styles/global.module.css';
 import TypewriterEffect from "../../components/typewriterEffect.tsx";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSortDown } from "@fortawesome/free-solid-svg-icons";
+import { motion } from 'framer-motion';
+
 
 const Entry = () => {
     return (
@@ -31,9 +33,14 @@ const Entry = () => {
                     <TypewriterEffect phrase="error: !!!131232@92n813192(*@Q*(#(*@naskj@*(!((" delay={4500}/>
                 </p>
             </div>
-
+            <motion.div className={styles.entryIconBox}
+                        initial={{opacity: 0,}}
+                        whileInView={{opacity: 1, transition: {delay: 0.1, duration: 0.5}}}
+                        viewport={{once: false, amount: .5}}
+            >
             <FontAwesomeIcon className={styles.entryIcon} icon={faSortDown} />
             <p className={styles.entryIconText}>scroll to continue</p>
+            </motion.div>
         </div>
     );
 };

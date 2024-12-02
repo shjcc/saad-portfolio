@@ -1,6 +1,9 @@
 /*transition colour for navbar is different to the active colour*/
 /*idk if i like center navbar with offhand right resume link or maybe putting resume at footer?
 could be cool if it was in the hero section?*/
+body {
+    background-color: ghostwhite;
+}
 .navbar {
     position: sticky;
     top: 0;
