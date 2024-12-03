@@ -4,14 +4,17 @@ const Education = () => {
     return (
         <section id="education" className={styles.educationContainer}>
             <div className={styles.educationContent}>
-                <h1 className={styles.educationTitle}>Education</h1>
+                <h2 className={styles.educationTitle}>Education</h2>
                 <p className={styles.educationText}>
-                    Bachelor of Information Technology and a major in Software Engineering from La Trobe University
-                    <br/>Graduate 2024
-                    <br/>Academic Integrity recipient - 2023
-                    <br/>Received 'Top 10% of cohort' within Professional Software Development
+                    Bachelor of Information Technology, majoring in Software Engineering, La Trobe University
+                    <br />Graduate of 2024.
                 </p>
-                <p className={styles.educationListTitle}>Some of my classes include:</p>
+                <ul className={styles.educationAchievements}>
+                    <li>Career Ready Advantage Award recipient, 2024</li>
+                    <li>Academic Integrity Award recipient, 2023</li>
+                    <li>Top 10% of cohort in Professional Software Development</li>
+                </ul>
+                <p className={styles.educationListTitle}>Relevant Courses:</p>
                 <ul className={styles.educationList}>
                     <li>Algorithms and Data Structures</li>
                     <li>UI/UX Design</li>
@@ -20,10 +23,11 @@ const Education = () => {
                     <li>System Analysis and Design</li>
                     <li>Mobile App Development</li>
                     <li>Machine Learning</li>
-                    <li>Machine Learning</li>
+                    <li>Professional Software Development</li>
                 </ul>
             </div>
         </section>
-    )
-}
+    );
+};
+
 export default Education;

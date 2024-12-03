@@ -1,27 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Gothic+A1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nanum+Myeongjo:wght@400;700;800&family=Oswald:wght@200..700&family=PT+Sans&family=VT323&display=swap');
+
 .educationContainer {
     padding: 6rem 2rem;
     background-color: ghostwhite;
+    text-align: center;
+    margin: 0 auto;
+    border-top: 2px solid #e0e0e0;
+    border-bottom: 2px solid #e0e0e0;
 }
+
+.educationContent {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.educationTitle {
+    font-size: 2.5rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.educationText {
+    font-size: 1.2rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.educationAchievements {
+    margin: 1.5rem 0;
+    padding: 0;
+    list-style: none;
+    color: #444;
+    font-size: 1rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.educationAchievements li {
+    margin-bottom: 0.5rem;
+}
+
+.educationListTitle {
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1.5rem;
+    margin: 2rem 0 1rem;
+    color: #444;
+    padding-top: calc(5%);
+}
+
 .educationList {
-    list-style: none; /* Removes default list styling */
-    padding: 0; /* Removes padding */
-    margin: 0 auto; /* Centers the list */
-    display: grid; /* Uses grid for neat list alignment */
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
-    gap: 1rem; /* Spacing between items */
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
 }
 
 .educationList li {
-    font-size: 1rem; /* Standard font size for list items */
-    padding: 0.5rem 1rem; /* Space around text for neatness */
-    border: 1px solid #e0e0e0; /* Adds border for structure */
-    border-radius: 8px; /* Rounds the corners */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    background-color: #f9f9f9; /* Light gray background for list items */
-    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth hover effect */
+    font-size: 1rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0.75rem 1.25rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .educationList li:hover {
-    transform: translateY(-4px); /* Lift effect on hover */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
