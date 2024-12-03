@@ -9,21 +9,17 @@
     margin: 0 auto;
 }
 
-.skillsContent h1 {
+.skillsTitle {
     font-size: 2.5rem;
     margin-bottom: 1rem;
     padding-bottom: 5rem;
-}
-
-.skillsContent p {
-    font-size: 1.25rem;
-    margin-bottom: 2rem;
 }
 
 .skillsList {
     background-color: #E7DBEF;
     border: 10px solid #E7DBEF;
     border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     padding: 1rem;
     margin-bottom: 1rem;
     display: flex;
@@ -33,18 +29,19 @@
 }
 
 .skillsAnchor {
-    color: black;
+    text-decoration: none;
+    color: #212121;
 }
 
 .skillsIcon {
     transition: transform 0.3s ease;
+    list-style: none;
 }
 
 .skillsIcon:hover, .skillsAnchor:hover {
     transform: translateY(-5px) scale(1.1);
     transition: transform 0.3s ease;
     color: palevioletred;
-
 }
 
 .skillsHover {

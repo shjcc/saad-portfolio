@@ -30,7 +30,7 @@ const About = () => {
                 </motion.p>
             </div>
             <motion.div className={styles.aboutImgBox}
-                        initial={{opacity: 0, y: 50}}
+                        initial={{opacity: 0, y: -50}}
                         whileInView={{opacity: 1, y: 0, transition: {delay: 0.8, duration: 0.5}}}
                         viewport={{once: false, amount: .5}}
             >
