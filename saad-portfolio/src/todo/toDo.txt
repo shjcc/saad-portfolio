@@ -3,7 +3,9 @@
 + decide on background for entry page
 + navbar animates into place
 
-+app.tsx remove onbuttonclick
++ education on the right, courses on the left
+
++ app.tsx remove onbuttonclick
 + select fonts for entry page(title, button) and for each section
 + scroll into animations for each section
 + possible scroll out animation for the entry page, if doing then attach it to the button as well as the scroll
