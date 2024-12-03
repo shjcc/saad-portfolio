@@ -1,4 +1,7 @@
-
+.educationContainer {
+    padding: 6rem 2rem;
+    background-color: ghostwhite;
+}
 .educationList {
     list-style: none; /* Removes default list styling */
     padding: 0; /* Removes padding */

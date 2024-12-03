@@ -1,6 +1,6 @@
 .skillsContainer {
-    padding: 4rem 2rem;
-    background-color: #E7DBEF;
+    padding: 6rem 2rem;
+    background-color: ghostwhite;
     text-align: center;
 }
 
@@ -21,6 +21,11 @@
 }
 
 .skillsList {
+    background-color: #E7DBEF;
+    border: 10px solid #E7DBEF;
+    border-radius: 20px;
+    padding: 1rem;
+    margin-bottom: 1rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;

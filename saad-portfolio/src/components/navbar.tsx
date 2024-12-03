@@ -1,7 +1,6 @@
-import { useState, useEffect } from 'react';
+import {useState, useEffect} from 'react';
 import styles from './navbar.module.css';
 import '../styles/global.module.css';
-import { motion } from 'framer-motion';
 
 
 const NavBar = () => {
@@ -17,7 +16,7 @@ const NavBar = () => {
                     }
                 });
             },
-            { threshold: 0.6 } //play around with this lol
+            {threshold: 0.6} //play around with this lol
         );
 
         sections.forEach((section) => observer.observe(section));
@@ -26,17 +25,9 @@ const NavBar = () => {
     }, []);
 
     return (
-        <motion.nav className={styles.navbar}
-                    initial={{opacity: 0, x: -50 }}
-                    whileInView={{opacity: 1, x: 0, transition: { delay: 1.2, duration: 0.5 }}}
-                    viewport={ {once: false, amount: .5}}
-        >
-            <motion.ul className={styles.navList}
-                       initial={{opacity: 0, x: -50 }}
-                       whileInView={{opacity: 1, x: 0, transition: { delay: 0.9, duration: 0.5 }}}
-                       viewport={ {once: false, amount: .5}}
-            >
-                {['about', 'education', 'skills', 'projects'].map((section) => (
+        <nav className={styles.navbar}>
+            <ul className={styles.navList}a>
+                {['about', 'skills', 'education', 'projects'].map((section) => (
                     <li key={section} className={styles.navItem}>
                         <a
                             href={`#${section}`}
@@ -48,8 +39,8 @@ const NavBar = () => {
                         </a>
                     </li>
                 ))}
-            </motion.ul>
-        </motion.nav>
+            </ul>
+        </nav>
     );
 };
 

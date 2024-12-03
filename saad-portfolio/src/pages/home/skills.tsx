@@ -5,13 +5,9 @@ import {faPython, faHtml5, faCss3Alt, faReact, faJava, faGitAlt, faNode, faCuttl
 const Skills = () => {
     return (
         <section id="skills" className={styles.skillsContainer}>
-
             <div className={styles.skillsContent}>
-
-                <h1 className={styles.skillsTitle}>My Skills</h1>
-
+                <h1 className={styles.skillsTitle}>Technical Skills</h1>
                 <div className={styles.skillsList}>
-
                     <div className={styles.skillsIcon}>
                         <a className={styles.skillsAnchor} href={"https://www.python.org/"} target="_blank">
                             <FontAwesomeIcon className={styles.skillsIconA} icon={faPython}/>

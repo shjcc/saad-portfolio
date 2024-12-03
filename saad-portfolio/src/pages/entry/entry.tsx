@@ -35,7 +35,7 @@ const Entry = () => {
             </div>
             <motion.div className={styles.entryIconBox}
                         initial={{opacity: 0,}}
-                        whileInView={{opacity: 1, transition: {delay: 0.1, duration: 0.5}}}
+                        whileInView={{opacity: 1, transition: {delay: 0.1, duration: 2}}}
                         viewport={{once: false, amount: .5}}
             >
             <FontAwesomeIcon className={styles.entryIcon} icon={faSortDown} />
