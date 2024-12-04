@@ -14,7 +14,8 @@ const Education = () => {
                     <li>Academic Integrity Award recipient, 2023</li>
                     <li>Top 10% of cohort in Professional Software Development</li>
                 </ul>
-                <p className={styles.educationListTitle}>Relevant Courses:</p>
+                <div className={styles.educationListBox}>
+                <p className={styles.educationListTitle}>Some of my relevant courses</p>
                 <ul className={styles.educationList}>
                     <li>Algorithms and Data Structures</li>
                     <li>UI/UX Design</li>
@@ -25,6 +26,7 @@ const Education = () => {
                     <li>Machine Learning</li>
                     <li>Professional Software Development</li>
                 </ul>
+                </div>
             </div>
         </section>
     );

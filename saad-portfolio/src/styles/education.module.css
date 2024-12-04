@@ -5,13 +5,16 @@
     background-color: ghostwhite;
     text-align: center;
     margin: 0 auto;
-    border-top: 2px solid #e0e0e0;
-    border-bottom: 2px solid #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .educationContent {
-    max-width: 1200px;
-    margin: 0 auto;
+    flex: 1;
+    max-width: calc(50%);
+    margin-left: 50%;
+    text-align: left;
     padding: 2rem;
 }
 
@@ -32,6 +35,14 @@
     color: #555;
     line-height: 1.6;
     margin-bottom: 1rem;
+}
+
+.educationListBox {
+    position: relative;
+    width: 100%;
+    align-items: center;
+    margin-top: -58%;
+    margin-left: -120%;
 }
 
 .educationAchievements {
@@ -57,6 +68,10 @@
     margin: 2rem 0 1rem;
     color: #444;
     padding-top: calc(5%);
+    padding-bottom: calc(5%);
+    border-bottom: 2px solid #8E44AD;
+    text-align: center;
+
 }
 
 .educationList {
@@ -75,13 +90,10 @@
     font-style: normal;
     padding: 0.75rem 1.25rem;
     border: 1px solid #e0e0e0;
-    border-radius: 10px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
-    background-color: #f9f9f9;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;    background-color: #E7DBEF;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .educationList li:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-}
+    transform: translateY(-5px) scale(1.1) translateX(-5px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;}
