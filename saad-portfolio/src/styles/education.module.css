@@ -41,19 +41,23 @@
     position: relative;
     width: 100%;
     align-items: center;
-    margin-top: calc(-50%);
+    margin-top: calc(-60%);
     margin-left: -110%;
 }
 
 .educationAchievements {
     margin: 1.5rem 0;
-    padding: 0;
+    padding: 1rem;
     list-style: none;
     color: #444;
-    font-size: 1rem;
+    font-size: 1.1rem; /* Slightly larger font for better readability */
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
+    background-color: #f9f9f9; /* Subtle background for better separation */
+    border-radius: 8px; /* Rounded corners for a polished look */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    line-height: 1.8; /* Improved line spacing for readability */
 }
 
 .educationAchievements li {

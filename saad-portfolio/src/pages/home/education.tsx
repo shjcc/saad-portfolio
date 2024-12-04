@@ -45,9 +45,9 @@ const Education = () => {
                     <br/>Graduate of 2024.
                 </p>
                 <ul className={styles.educationAchievements}>
-                    <li>Career Ready Advantage Award recipient, 2024</li>
-                    <li>Academic Integrity Award recipient, 2023</li>
-                    <li>Top 10% of cohort in Professional Software Development</li>
+                    <li>✔️ Career Ready Advantage Award recipient, 2024</li>
+                    <li>✔️ Academic Integrity Award recipient, 2023</li>
+                    <li>✔️ Top 10% of cohort in Professional Software Development</li>
                 </ul>
                 <motion.div className={styles.educationListBox}
                             variants={variants}
