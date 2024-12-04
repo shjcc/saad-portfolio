@@ -19,9 +19,9 @@ const About = () => {
                           whileInView={{opacity: 1, x: 0, transition: {delay: 0.4, duration: 0.5}}}
                           viewport={{once: false, amount: .5}}
                 >
-                    I am a recent graduate from La Trobe University, however I am a firm believer in the philosophy that
+                    Hi! my name is Saad Hussain, I am a recent graduate from La Trobe University, however I am a firm believer in the philosophy that
                     education does not stop after graduation.
-                    I earned a degree in Information Technology with a major in software engineering.
+                    I earned my degree in Information Technology with a major in software engineering.
                     With a personal passion for web development and machine learning, the unique blend of creativity and
                     problem-solving
                     within coding never fails to excite and motivate me to go beyond my limits.
