@@ -41,8 +41,8 @@
     position: relative;
     width: 100%;
     align-items: center;
-    margin-top: -58%;
-    margin-left: -120%;
+    margin-top: calc(-50%);
+    margin-left: -110%;
 }
 
 .educationAchievements {
