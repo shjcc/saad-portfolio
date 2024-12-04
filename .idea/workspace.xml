@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="969cbb25-a09f-4416-8059-f3936e76a8ef" name="Changes" comment="updated the new template, bringing over files from my old portfolio test">
+      <change afterPath="$PROJECT_DIR$/saad-portfolio/src/pages/home/footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saad-portfolio/src/styles/footer.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/pages/home/education.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/pages/home/education.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/styles/education.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/styles/education.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/styles/projects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/styles/projects.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -119,7 +121,7 @@
       <workItem from="1733197810302" duration="5176000" />
       <workItem from="1733211663773" duration="327000" />
       <workItem from="1733277867626" duration="4171000" />
-      <workItem from="1733295724215" duration="6829000" />
+      <workItem from="1733295724215" duration="7452000" />
     </task>
     <task id="LOCAL-00001" summary="updated the new template, bringing over files from my old portfolio test">
       <option name="closed" value="true" />
