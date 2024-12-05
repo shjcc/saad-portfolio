@@ -1,7 +1,6 @@
 import Entry from './pages/entry/entry';
 import Home from './pages/home/home';
-import Footer from './pages/home/footer'
-
+import Footer from './pages/home/footer';
 const App = () => {
 
     return (

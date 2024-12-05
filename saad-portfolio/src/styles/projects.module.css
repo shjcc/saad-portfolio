@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Gothic+A1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nanum+Myeongjo:wght@400;700;800&family=Oswald:wght@200..700&family=PT+Sans&family=VT323&display=swap');
+
 .projectsContainer {
     padding: 6rem 2rem;
     background-color: ghostwhite;
@@ -7,6 +9,7 @@
 .projectsContent {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 1rem;
 }
 
 .projectsTitle {
@@ -18,65 +21,77 @@
     padding-bottom: 2rem;
 }
 
+.projectsContent h2 {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
 .projectsGifList {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-    gap: 2rem;
-}
-
-.projectsGifBox {
-    display: flex;
-    gap: 3rem;
     flex-direction: column;
+    gap: 4rem;
 }
 
-.projectsGame {
-    width: 5000px;
-    height: auto;
+.projectRow {
     display: flex;
     align-items: center;
-    flex-direction: row;
     gap: 2rem;
 }
 
-.projectsMobile {
-    width: 500px;
-    height: auto;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    gap: 2rem;
-}
-
-.projectsWeb {
-    width: 500px;
-    height: auto;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    gap: 2rem;
-}
-
-.projectsGifBox img {
+.projectGifLink img {
     width: 100%;
+    max-width: 400px;
     height: auto;
     border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.projectsGifBox img:hover {
+.gameGif img {
+    max-width: 500px;
+    height: 300px;
+}
+
+
+.mobileGif img {
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    height: 500px;
+    transform: translateX(110px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.webGif img {
+    max-width: 600px;
+    height: 300px;
+}
+
+.projectGifLink img:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
-.projectText {
-    max-width: 600px;
-    text-align: left;
+.mobileGif img:hover {
+    transform: scale(1.05) translateX(110px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
-.projectText h2 {
+.projectText {
+    flex: 1;
+    text-align: left;
+    max-width: 50%;
+
+}
+
+.projectTextMobile {
+    position: relative;
+    left: 22%;
+    text-align: left;
+    max-width: 50%;
+}
+
+.projectText h2, .projectTextMobile h2 {
     font-size: 1.5rem;
     color: #333;
     margin-bottom: 0.5rem;
@@ -84,27 +99,25 @@
     font-weight: 700;
 }
 
-.projectText p {
+.projectText p, .projectTextMobile p {
     font-size: 1rem;
     color: #555;
     line-height: 1.5;
     font-family: "Lato", sans-serif;
 }
 
+
 @media (max-width: 768px) {
-    .projectsGifList {
+    .projectRow {
         flex-direction: column;
-        align-items: center;
+        gap: 1.5rem;
     }
 
-    .projectsGifBox {
-        flex-direction: column;
-        gap: 2rem;
+    .projectGifLink img {
+        max-width: 100%;
     }
 
-    .projectsGame,
-    .projectsMobile,
-    .projectsWeb {
-        width: 100%;
+    .projectText {
+        text-align: center;
     }
 }
