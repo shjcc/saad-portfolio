@@ -26,7 +26,7 @@ const NavBar = () => {
 
     return (
         <nav className={styles.navbar}>
-            <ul className={styles.navList}a>
+            <ul className={styles.navList}>
                 {['about', 'skills', 'education', 'projects'].map((section) => (
                     <li key={section} className={styles.navItem}>
                         <a

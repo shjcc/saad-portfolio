@@ -9,58 +9,102 @@
     margin: 0 auto;
 }
 
-.projectsContent h1 {
+.projectsTitle {
     font-size: 2.5rem;
     color: #333;
     margin-bottom: 1rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    padding-bottom: 2rem;
 }
 
-.projectsContent p {
-    font-size: 1.25rem;
-    color: #555;
-    margin-bottom: 2rem;
-}
-
-.projectsGifs {
+.projectsGifList {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem; /* Adds spacing between GIFs */
+    justify-content: left;
+    gap: 2rem;
 }
 
-.projectGif {
-    flex: 1 1 calc(33.333% - 2rem); /* Ensures 3 items per row with gaps */
-    max-width: 300px; /* Optional: limits the size of each GIF */
+.projectsGifBox {
     display: flex;
-    justify-content: center;
+    gap: 3rem;
+    flex-direction: column;
+}
+
+.projectsGame {
+    width: 5000px;
+    height: auto;
+    display: flex;
     align-items: center;
+    flex-direction: row;
+    gap: 2rem;
 }
 
-.projectGif a {
-    text-decoration: none;
+.projectsMobile {
+    width: 500px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: calc(50% - 1rem);
+}
+
+.projectsWeb {
+    width: 6000px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.projectsGifBox img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    display: inline-block;
 }
 
-.projectGif a:hover {
+.projectsGifBox img:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
-.projectGif img {
-    width: 100%;
-    border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+.projectText {
+    max-width: 600px;
+    text-align: left;
+}
+
+.projectText h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+}
+
+.projectText p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+    font-family: "Lato", sans-serif;
 }
 
 @media (max-width: 768px) {
-    .projectGif {
-        flex: 1 1 100%; /* Full width for smaller screens */
+    .projectsGifList {
+        flex-direction: column;
+        align-items: center;
     }
-}
 
-@media (min-width: 769px) and (max-width: 1024px) {
-    .projectGif {
-        flex: 1 1 calc(50% - 2rem); /* 2 items per row for tablets */
+    .projectsGifBox {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .projectsGame,
+    .projectsMobile,
+    .projectsWeb {
+        width: 100%;
     }
 }
