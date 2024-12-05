@@ -19,7 +19,7 @@ const About = () => {
                           whileInView={{opacity: 1, x: 0, transition: {delay: 0.4, duration: 0.5}}}
                           viewport={{once: false, amount: .5}}
                 >
-                    Hi! my name is Saad Hussain, I am a recent graduate from La Trobe University, however I am a firm believer in the philosophy that
+                    <strong>Hi!</strong> my name is <strong>Saad Hussain</strong>, I am a recent graduate from La Trobe University, however I am a firm believer in the philosophy that
                     education does not stop after graduation.
                     I earned my degree in Information Technology with a major in software engineering.
                     With a personal passion for web development and machine learning, the unique blend of creativity and
@@ -29,13 +29,15 @@ const About = () => {
                     streak for Spanish. I also enjoy watching (too many) movies, and increasing my spotify hours!
                 </motion.p>
             </div>
-            <motion.div className={styles.aboutImgBox}
-                        initial={{opacity: 0, y: -50}}
-                        whileInView={{opacity: 1, y: 0, transition: {delay: 0.8, duration: 0.5}}}
-                        viewport={{once: false, amount: .5}}
-            >
-                <img src={profile} alt="Saad's Picture" className={styles.aboutImg}/>
-            </motion.div>
+            <div className={styles.aboutImgBox}>
+                <motion.img src={profile} alt="Saad's Picture" className={styles.aboutImg}
+                            initial={{opacity: 0, y: -50}}
+                            whileInView={{opacity: 1, y: 0, transition: {delay: 0.8, duration: 0.5}}}
+                            viewport={{once: false, amount: .5}}
+                            whileHover={{ scale: 1.1 }}
+                            whileTap={{ scale: 0.9 }}
+                            transition={{ type: "spring", stiffness: 200, damping: 10 }}/>
+            </div>
         </section>
     )
 }

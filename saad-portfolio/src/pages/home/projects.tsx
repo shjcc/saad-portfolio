@@ -18,7 +18,7 @@ const Project = () => {
                             <Gif src={GameGif} alt="Game Gif"/>
                         </a>
                         <div className={styles.projectText}>
-                            <h2>Python Video Game</h2>
+                            <h2>Python 2D Game</h2>
                             <p>
                                 <strong>Language:</strong> Python, PyGame
                                 <br/>
@@ -39,7 +39,7 @@ const Project = () => {
                             <Gif src={MobileGif} alt="Mobile Gif"/>
                         </a>
                         <div className={styles.projectTextMobile}>
-                            <h2>Mobile Flower Store Locator Application</h2>
+                            <h2>Flower Mobile App</h2>
                             <p>
                                 <strong>Language:</strong> Java, Kotlin
                                 <br/>
@@ -65,10 +65,11 @@ const Project = () => {
                                 <br/>
                                 <strong>Technologies used:</strong> Github/Git, Trello, Jira, Slack, VsCode
                                 <br/>
-                                A web-based system for a catering management system. Included features are Inventory
+                                A full-stack web-based system for a catering management system. Included features are Inventory
                                 adding/tracking,
                                 production scheduling, customer report generation, order processing along with MySQL
-                                CRUD elements. This project was created within 2 months as part of a school competition for our local
+                                CRUD elements. Fully deployed and hosted using Render and Microsoft Azure along with CI/CD.
+                                This project was created within 2 months as part of a school competition for our local
                                 council.
                             </p>
                         </div>
