@@ -46,11 +46,11 @@
     display: flex;
     align-items: center;
     flex-direction: row;
-    gap: calc(50% - 1rem);
+    gap: 2rem;
 }
 
 .projectsWeb {
-    width: 6000px;
+    width: 500px;
     height: auto;
     display: flex;
     align-items: center;
