@@ -30,12 +30,15 @@ const Footer = () => {
                     ref={form}
                     onSubmit={sendEmail}
                     className={styles.footerForm}>
-                    <input type="text"
-                           placeholder="Name" name="user_name" required/>
-                    <input type="email"
-                           placeholder="Email" name="user_email" required/>
-                    <textarea name="message">
-                    </textarea>
+                    <label>Name</label>
+                    <input type="text" placeholder="Name" name="user_name" required/>
+
+                    <label>Email</label>
+                    <input type="email" placeholder="Email" name="user_email" required/>
+
+                    <label>Message</label>
+                    <textarea name="message" placeholder="Message"> </textarea>
+
                     <button className="styles.footerBtn" type="submit">Send</button>
                 </form>
             </div>
