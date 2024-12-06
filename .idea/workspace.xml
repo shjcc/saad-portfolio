@@ -7,7 +7,6 @@
     <list default="true" id="969cbb25-a09f-4416-8059-f3936e76a8ef" name="Changes" comment="updated the new template, bringing over files from my old portfolio test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/saad-portfolio/src/pages/home/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/pages/home/footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/todo/toDo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/todo/toDo.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,7 @@
   }
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -124,7 +123,7 @@
       <workItem from="1733391328805" duration="548000" />
       <workItem from="1733398996167" duration="34000" />
       <workItem from="1733400276961" duration="39000" />
-      <workItem from="1733476192229" duration="792000" />
+      <workItem from="1733476192229" duration="1374000" />
     </task>
     <task id="LOCAL-00001" summary="updated the new template, bringing over files from my old portfolio test">
       <option name="closed" value="true" />
