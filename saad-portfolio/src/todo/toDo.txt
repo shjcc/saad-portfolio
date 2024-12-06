@@ -11,6 +11,8 @@
 + scroll into animations for each section
 + possible scroll out animation for the entry page, if doing then attach it to the button as well as the scroll
 
++ custom cursor T_T_T_T_T_T_T
+
 wow u finished the website...congrats?
 you still need to include [somewhere] a description of what you used to make the website..its a project idiot.
 also fix the website tab icon bc rn its still the vite lol u fucking idiot.
