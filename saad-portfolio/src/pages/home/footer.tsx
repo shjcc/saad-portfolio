@@ -13,16 +13,14 @@ const Footer = () => {
             })
             .then(
                 () => {
-                    console.log('SUCCESS!');
+                    console.log('email fired off!');
                 },
                 (error) => {
-                    console.log('FAILED...', error.text);
+                    console.log('email fizzled out...', error.text);
                 },
             );
         e.currentTarget.reset()
     };
-
-
 
     return (
         <section id="footer" className={styles.footerContainer}>
@@ -36,10 +34,7 @@ const Footer = () => {
                            placeholder="Name" name="user_name" required/>
                     <input type="email"
                            placeholder="Email" name="user_email" required/>
-                    <input type="text"
-                           placeholder="Subject" name="subject" required/>
                     <textarea name="message">
-
                     </textarea>
                     <button className="styles.footerBtn" type="submit">Send</button>
                 </form>
