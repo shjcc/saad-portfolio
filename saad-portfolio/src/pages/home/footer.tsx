@@ -1,10 +1,11 @@
-import { useRef } from "react";
-
+import {useRef} from "react";
+import emailjs from '@emailjs/browser';
 import styles from '../../styles/footer.module.css';
 
 const Footer = () => {
     const form = useRef();
-    const sendEmail = () => {};
+    const sendEmail = () => {
+    };
     return (
         <section id="footer" className={styles.footerContainer}>
             <div className={styles.footerContent}>
@@ -17,6 +18,12 @@ const Footer = () => {
                            placeholder="Name" name="user_name" required/>
                     <input type="email"
                            placeholder="Email" name="user_email" required/>
+                    <input type="text"
+                           placeholder="Subject" name="subject" required/>
+                    <textarea name="message">
+
+                    </textarea>
+                    <button className="styles.footerBtn" type="submit">Send</button>
                 </form>
             </div>
         </section>
