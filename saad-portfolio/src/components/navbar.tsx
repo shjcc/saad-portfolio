@@ -11,12 +11,13 @@ const NavBar = () => {
         const observer = new IntersectionObserver(
             (entries) => {
                 entries.forEach((entry) => {
+                    console.log(entry.target.id, entry.isIntersecting);
                     if (entry.isIntersecting) {
                         setActiveSection(entry.target.id);
                     }
                 });
             },
-            {threshold: 0.6} //play around with this lol
+            {threshold: 0.4} //play around with this lol
         );
 
         sections.forEach((section) => observer.observe(section));
@@ -27,7 +28,7 @@ const NavBar = () => {
     return (
         <nav className={styles.navbar}>
             <ul className={styles.navList}>
-                {['about', 'skills', 'education', 'projects'].map((section) => (
+                {['about', 'skills', 'education', 'projects', 'contact'].map((section) => (
                     <li key={section} className={styles.navItem}>
                         <a
                             href={`#${section}`}

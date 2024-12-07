@@ -1,19 +1,17 @@
 import styles from '../../styles/home.module.css';
 import Navbar from '../../components/navbar.tsx';
-// import Hero from './hero.tsx';
 import About from './about.tsx';
 import Education from './education.tsx';
 import Skills from './skills.tsx';
 import Projects from './projects.tsx';
+import Contact from './contact.tsx';
 
 
 const Home = () => {
     return (
         <div className={styles.homeContainer}>
             <Navbar/>
-            {/*<div id="hero">*/}
-            {/*    <Hero/>*/}
-            {/*</div>*/}
+
             <div id="about">
                 <About/>
             </div>
@@ -25,6 +23,9 @@ const Home = () => {
             </div>
             <div id="projects">
                 <Projects/>
+            </div>
+            <div id="contact">
+                <Contact/>
             </div>
         </div>
     );

@@ -1,8 +1,8 @@
 import {useRef} from "react";
 import emailjs from '@emailjs/browser';
-import styles from '../../styles/footer.module.css';
+import styles from '../../styles/contact.module.css';
 
-const Footer = () => {
+const Contact = () => {
     const form = useRef(null);
     const sendEmail = (e) => {
         e.preventDefault();
@@ -47,4 +47,4 @@ const Footer = () => {
 };
 
 
-export default Footer;
+export default Contact;
