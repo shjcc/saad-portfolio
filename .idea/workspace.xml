@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="969cbb25-a09f-4416-8059-f3936e76a8ef" name="Changes" comment="updated the new template, bringing over files from my old portfolio test">
-      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/todo/toDo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/todo/toDo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/pages/home/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/pages/home/footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/styles/footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/styles/footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saad-portfolio/src/styles/projects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/saad-portfolio/src/styles/projects.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +85,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-WS-243.21565.180" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.112" />
       </set>
     </attachedChunks>
   </component>
@@ -122,7 +125,9 @@
       <workItem from="1733391328805" duration="548000" />
       <workItem from="1733398996167" duration="34000" />
       <workItem from="1733400276961" duration="39000" />
-      <workItem from="1733476192229" duration="2208000" />
+      <workItem from="1733476192229" duration="2880000" />
+      <workItem from="1733482013976" duration="118000" />
+      <workItem from="1733527259055" duration="10447000" />
     </task>
     <task id="LOCAL-00001" summary="updated the new template, bringing over files from my old portfolio test">
       <option name="closed" value="true" />

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Gothic+A1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nanum+Myeongjo:wght@400;700;800&family=Oswald:wght@200..700&family=PT+Sans&family=VT323&display=swap');
 
 .projectsContainer {
-    padding: 6rem 2rem;
+    padding: 6rem 0rem;
     background-color: ghostwhite;
     text-align: center;
 }
@@ -18,13 +18,13 @@
     margin-bottom: 1rem;
     font-family: "Lato", sans-serif;
     font-weight: 800;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .projectsContent h2 {
     font-size: 1.2rem;
     color: #666;
-    margin-bottom: 2rem;
+    margin-bottom: 6rem;
 }
 
 .projectsGifList {

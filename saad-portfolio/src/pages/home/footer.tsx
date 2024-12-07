@@ -25,21 +25,21 @@ const Footer = () => {
     return (
         <section id="footer" className={styles.footerContainer}>
             <div className={styles.footerContent}>
-                <h2 className={styles.footerTitle}>Contact me!</h2>
+                <h2 className={styles.footerTitle}>Contact</h2>
                 <form
                     ref={form}
                     onSubmit={sendEmail}
                     className={styles.footerForm}>
-                    <label>Name</label>
-                    <input type="text" placeholder="Name" name="user_name" required/>
+                    <label className={styles.footerLabel}>Name*</label>
+                    <input className={styles.footerInput} type="text" placeholder="Your Name..." name="user_name" required/>
 
-                    <label>Email</label>
-                    <input type="email" placeholder="Email" name="user_email" required/>
+                    <label className={styles.footerLabel}>Email*</label>
+                    <input className={styles.footerInput} type="email" placeholder="Your Email..." name="user_email" required/>
 
-                    <label>Message</label>
-                    <textarea name="message" placeholder="Message"> </textarea>
+                    <label className={styles.footerLabel}>Message*</label>
+                    <textarea className={styles.footerInputMsg} placeholder="Your Message..." name="message"></textarea>
 
-                    <button className="styles.footerBtn" type="submit">Send</button>
+                    <button className={styles.footerBtn} type="submit">Send</button>
                 </form>
             </div>
         </section>
