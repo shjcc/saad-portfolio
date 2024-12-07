@@ -105,13 +105,13 @@
 .contactIconText {
     position: absolute;
     bottom: 7rem;
-    right: 3.1rem;
-    font-size: 1.25rem;
+    right: 1.4rem;
+    font-size: 1.5rem;
     font-family: "Lato", sans-serif;
     font-weight: 800;
     font-style: normal;
     margin: 0;
-    text-align: center;
+    text-wrap: nowrap;
 }
 
 .contactAnchor {

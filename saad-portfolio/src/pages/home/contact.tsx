@@ -46,9 +46,9 @@ const Contact = () => {
                 <div className={styles.contactIconBox}>
                     <p className={styles.contactIconText}>For more info</p>
                     <a href="https://www.linkedin.com/in/saad-hussain-a0b9a629b/" target="_blank" className={styles.aboutIconAnchor}>
-                    <FontAwesomeIcon className={styles.contactIcon} icon={faLinkedin}/></a>
+                    <FontAwesomeIcon className={styles.contactIcon} icon={ faLinkedin } /></a>
                     <a href="https://github.com/shjcc" target="_blank" className={styles.aboutIconAnchor}>
-                    <FontAwesomeIcon className={styles.contactIcon} icon={faSquareGithub}/></a>
+                    <FontAwesomeIcon className={styles.contactIcon} icon={ faSquareGithub }  /></a>
                 </div>
             </div>
         </section>
