@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="969cbb25-a09f-4416-8059-f3936e76a8ef" name="Changes" comment="updated the new template, bringing over files from my old portfolio test">
+      <change afterPath="$PROJECT_DIR$/src/styles/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/about.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/about.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,11 +77,11 @@
       <recent name="C:\Users\saada\Desktop\web\saad.github.io\saad-portfolio\src\pages\home" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\saada\Desktop\web\saad.github.io\src\styles" />
       <recent name="C:\Users\saada\Desktop\web\saad.github.io\src\assets" />
       <recent name="C:\Users\saada\Desktop\web\saad.github.io" />
       <recent name="C:\Users\saada\Desktop\web\saad.github.io\saad-portfolio\src\assets" />
       <recent name="C:\Users\saada\Desktop\web\saad.github.io\saad-portfolio\src\components" />
-      <recent name="C:\Users\saada\Desktop\web\saad.github.io\saad-portfolio\src\pages\loading" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -130,7 +130,7 @@
       <workItem from="1733476192229" duration="2880000" />
       <workItem from="1733482013976" duration="118000" />
       <workItem from="1733527259055" duration="13787000" />
-      <workItem from="1733617187403" duration="9836000" />
+      <workItem from="1733617187403" duration="10643000" />
     </task>
     <task id="LOCAL-00001" summary="updated the new template, bringing over files from my old portfolio test">
       <option name="closed" value="true" />
