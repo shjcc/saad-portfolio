@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&family=Nanum+Myeongjo:wght@400;700;800&family=PT+Sans&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Gothic+A1&family=Nanum+Myeongjo:wght@400;700;800&family=Oswald:wght@200..700&family=PT+Sans&family=VT323&display=swap');
+.entryBackground {
+    background-color: ghostwhite;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.entryTitle {
+    position: absolute;
+    top: 0;
+    color: ghostwhite;
+    font-size: 4rem;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    visibility: hidden;
+    opacity: 0;
+    animation: fadeIn 3s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.entryTypeBox {
+    position: absolute; /* absolute*/
+    top: calc(2%); /* bottom: 190px*/
+    left: calc(2%); /* right: 25vw*/
+    max-width: 600px;
+    width: 80%;
+    height: 6rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.entryTyping, .entryTypingName {
+    position: relative;
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+    color: black;
+    margin: 0.2rem 0;
+    white-space: nowrap;
+}
+
+.entryTypingName {
+    color: rebeccapurple;
+}
+
+.entryIcon {
+    position: absolute;
+    bottom: calc(7%);
+    left: calc(3%);
+    height: 5rem;
+    opacity: 0;
+    animation-name: fadeIn, blink;
+    animation-duration: 1.5s;
+    animation-delay: 5.5s,6.0s ;
+    animation-iteration-count: 1, infinite;
+}
+
+.entryIconText {
+    position: absolute;
+    top: calc(91%);
+    left: calc(1%);
+    height: 5rem;
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3rem;
+    color: black;
+    opacity: 0;
+    animation: fadeIn forwards;
+    animation-duration: 1.5s;
+    animation-delay: 5.5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    to {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/*shrink for smaller screens*/
+@media (max-width: 768px) {
+    .entryTypeBox {
+        width: 90%;
+    }
+    .entryTyping, .entryTypingName {
+        font-size: 1.2rem;
+    }
+    .entryIcon {
+        height: 1.2rem;
+    }
+}

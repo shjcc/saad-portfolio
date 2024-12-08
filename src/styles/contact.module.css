@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Gothic+A1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nanum+Myeongjo:wght@400;700;800&family=Oswald:wght@200..700&family=PT+Sans&family=VT323&display=swap');
+
+.contactContainer {
+    padding: 3rem 2rem;
+    background-color: ghostwhite;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    /*max-width: 100%;*/
+    max-width: 1000px;
+}
+
+.contactTitle {
+    font-size: 2rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin: 0;
+}
+
+.contactContent {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    left: 100px
+}
+
+.contactForm {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+
+}
+
+.contactLabel {
+    display: flex;
+    font-size: 1.25rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    justify-content: left;
+    padding-bottom: 0.5rem;
+    padding-top: 1.25rem;
+}
+
+.contactInput  {
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.contactInputMsg {
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+    height: 100px !important;
+}
+
+.contactInput, .contactInputMsg {
+    max-width: calc(30vw - 3rem);
+    height: 50%;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    outline: palevioletred 2px;
+    border: dimgray solid 1px;
+    border-radius: 0.25rem;
+}
+
+.contactInput:focus, .contactInputMsg:focus {
+    border: 1px solid palevioletred;
+}
+
+.contactBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 10%;
+    margin-top: 1rem;
+}
+
+.contactIconBox {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    background-color: #E7DBEF;
+    border: 10px solid #E7DBEF;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    padding: 2rem 1rem 1rem 1rem;
+    margin-bottom: 1rem;
+    margin-right: 0;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 5rem;
+}
+
+.contactIconText {
+    position: absolute;
+    bottom: 7rem;
+    right: 1.4rem;
+    font-size: 1.5rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin: 0;
+    text-wrap: nowrap;
+}
+
+.contactAnchor {
+    text-decoration: none;
+    color: #212121;
+}
+
+.contactIcon {
+    transition: transform 0.3s ease;
+    list-style: none;
+}
+
+.contactIcon:hover, .contactAnchor:hover {
+    transform: scale(1.25);
+    transition: transform 0.3s ease;
+    color: palevioletred;
+}
+

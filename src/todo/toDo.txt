@@ -1,0 +1,20 @@
++ replace typewriter text with stamped text, remove blinking caret
++ put scroll down icon with text "scroll down"
++ decide on background for entry page
++ navbar animates into place
+
+
++ education on the right, courses on the left
+
++ app.tsx remove onbuttonclick
++ select fonts for entry page(title, button) and for each section
++ scroll into animations for each section
++ possible scroll out animation for the entry page, if doing then attach it to the button as well as the scroll
+
++ custom cursor T_T_T_T_T_T_T
+
+wow u finished the website...congrats?
+you still need to include [somewhere] a description of what you used to make the website..its a project idiot.
+also fix the website tab icon bc rn its still the vite lol u fucking idiot.
+
+woah, all, done?
