@@ -1,12 +1,12 @@
 {
-  "homepage": "https://shjcc.github.io/saad.github.io",
+  "homepage": "https://shjcc.github.io/saad.github.io/",
   "name": "saad-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint saad-portfolio",
