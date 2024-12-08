@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="969cbb25-a09f-4416-8059-f3936e76a8ef" name="Changes" comment="updated the new template, bringing over files from my old portfolio test" />
+    <list default="true" id="969cbb25-a09f-4416-8059-f3936e76a8ef" name="Changes" comment="updated the new template, bringing over files from my old portfolio test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +38,9 @@
     &quot;accountId&quot;: &quot;7161e2be-733a-45dc-a987-89c30c800c35&quot;
   }
 }</component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -70,11 +77,11 @@
       <recent name="C:\Users\saada\Desktop\web\saad.github.io\saad-portfolio\src\pages\home" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\saada\Desktop\web\saad.github.io" />
       <recent name="C:\Users\saada\Desktop\web\saad.github.io\saad-portfolio\src\assets" />
       <recent name="C:\Users\saada\Desktop\web\saad.github.io\saad-portfolio\src\components" />
       <recent name="C:\Users\saada\Desktop\web\saad.github.io\saad-portfolio\src\pages\loading" />
       <recent name="C:\Users\saada\Desktop\web\saad.github.io\saad-portfolio\src\styles" />
-      <recent name="C:\Users\saada\Desktop\web\saad.github.io\saad-portfolio\src" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -123,6 +130,7 @@
       <workItem from="1733476192229" duration="2880000" />
       <workItem from="1733482013976" duration="118000" />
       <workItem from="1733527259055" duration="13787000" />
+      <workItem from="1733617187403" duration="661000" />
     </task>
     <task id="LOCAL-00001" summary="updated the new template, bringing over files from my old portfolio test">
       <option name="closed" value="true" />
