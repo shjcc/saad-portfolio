@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Gothic+A1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nanum+Myeongjo:wght@400;700;800&family=Oswald:wght@200..700&family=PT+Sans&family=VT323&display=swap');
+
+.footerBar {
+    background-color: rgba(201, 178, 250, 0.5);
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.footerIcon {
+    color: #2c3e50;
+    margin: 0 5px;
+}
+
+.footerText {
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
