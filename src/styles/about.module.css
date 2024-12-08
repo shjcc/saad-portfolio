@@ -59,6 +59,29 @@
     cursor: grabbing;
 }
 
+.aboutAnchor {
+    background-color: mediumpurple;
+    box-shadow: 0 5px 0 darkorchid;
+    border-radius: 5px;
+    color: white;
+    padding: 0.5em 1em;
+    position: relative;
+    text-decoration: none;
+}
+.aboutAnchor:hover {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: darkorchid;
+
+}
+.aboutAnchor:active {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    box-shadow: none;
+    top: 5px;
+}
+
 @media (max-width: 768px) {
     .aboutContainer {
         flex-direction: column;

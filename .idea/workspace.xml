@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="969cbb25-a09f-4416-8059-f3936e76a8ef" name="Changes" comment="updated the new template, bringing over files from my old portfolio test">
-      <change afterPath="$PROJECT_DIR$/src/assets/s.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/self.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/todo/styleOptions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/todo/toDo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/todo/toDo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/about.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/contact.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/about.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/about.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +131,7 @@
       <workItem from="1733476192229" duration="2880000" />
       <workItem from="1733482013976" duration="118000" />
       <workItem from="1733527259055" duration="13787000" />
-      <workItem from="1733617187403" duration="6004000" />
+      <workItem from="1733617187403" duration="7305000" />
     </task>
     <task id="LOCAL-00001" summary="updated the new template, bringing over files from my old portfolio test">
       <option name="closed" value="true" />
