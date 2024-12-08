@@ -30,11 +30,11 @@ body {
 }
 
 .navLink {
-    color: black;
+    color: dimgray;
     text-decoration: none;
     transition: color 0.3s ease;
     font-family: "Lato", sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
 }
 
@@ -45,6 +45,8 @@ body {
 .navLink.active {
     color: palevioletred;
     font-weight: 900;
+    border-bottom: 2px solid palevioletred;
+    border-radius: 2px;
 }
 
 
