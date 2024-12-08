@@ -1,4 +1,4 @@
-import {useRef} from "react";
+import React, {useRef} from "react";
 import emailjs from '@emailjs/browser';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faLinkedin, faSquareGithub } from '@fortawesome/free-brands-svg-icons';
@@ -6,7 +6,7 @@ import styles from '../../styles/contact.module.css';
 
 const Contact = () => {
     const form = useRef(null);
-    const sendEmail = (e) => {
+    const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
 
         emailjs
