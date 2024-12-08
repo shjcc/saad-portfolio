@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="969cbb25-a09f-4416-8059-f3936e76a8ef" name="Changes" comment="updated the new template, bringing over files from my old portfolio test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="CSS File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;shjcc&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/shjcc/saad.github.io.git&quot;,
+    &quot;accountId&quot;: &quot;7161e2be-733a-45dc-a987-89c30c800c35&quot;
+  }
+}</component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2p6HIlUTTHWxhFybICyARbMAzra" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/saada/Desktop/web/saad.github.io/saad-portfolio/src/pages/home",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
+    "ts.external.directory.path": "C:\\Users\\saada\\Desktop\\web\\saad.github.io\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\saada\Desktop\web\saad.github.io\saad-portfolio\src\pages\home" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\saada\Desktop\web\saad.github.io" />
+      <recent name="C:\Users\saada\Desktop\web\saad.github.io\saad-portfolio\src\assets" />
+      <recent name="C:\Users\saada\Desktop\web\saad.github.io\saad-portfolio\src\components" />
+      <recent name="C:\Users\saada\Desktop\web\saad.github.io\saad-portfolio\src\pages\loading" />
+      <recent name="C:\Users\saada\Desktop\web\saad.github.io\saad-portfolio\src\styles" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.112" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="969cbb25-a09f-4416-8059-f3936e76a8ef" name="Changes" comment="" />
+      <created>1732079528683</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732079528683</updated>
+      <workItem from="1732079529639" duration="13051000" />
+      <workItem from="1732176033089" duration="4319000" />
+      <workItem from="1732251371022" duration="2555000" />
+      <workItem from="1732255094093" duration="933000" />
+      <workItem from="1732256087905" duration="148000" />
+      <workItem from="1732256313145" duration="31000" />
+      <workItem from="1732411599821" duration="274000" />
+      <workItem from="1732413335531" duration="943000" />
+      <workItem from="1732516180338" duration="851000" />
+      <workItem from="1732576920916" duration="971000" />
+      <workItem from="1732588274645" duration="11597000" />
+      <workItem from="1732619922963" duration="3497000" />
+      <workItem from="1732703941432" duration="1406000" />
+      <workItem from="1732705369756" duration="3601000" />
+      <workItem from="1732733145891" duration="14129000" />
+      <workItem from="1732771121222" duration="4236000" />
+      <workItem from="1732872267015" duration="3299000" />
+      <workItem from="1732932227559" duration="18697000" />
+      <workItem from="1733107116483" duration="4563000" />
+      <workItem from="1733132192611" duration="1679000" />
+      <workItem from="1733197810302" duration="5176000" />
+      <workItem from="1733211663773" duration="327000" />
+      <workItem from="1733277867626" duration="4171000" />
+      <workItem from="1733295724215" duration="9542000" />
+      <workItem from="1733348223292" duration="15967000" />
+      <workItem from="1733391328805" duration="548000" />
+      <workItem from="1733398996167" duration="34000" />
+      <workItem from="1733400276961" duration="39000" />
+      <workItem from="1733476192229" duration="2880000" />
+      <workItem from="1733482013976" duration="118000" />
+      <workItem from="1733527259055" duration="13787000" />
+      <workItem from="1733617187403" duration="1310000" />
+    </task>
+    <task id="LOCAL-00001" summary="updated the new template, bringing over files from my old portfolio test">
+      <option name="closed" value="true" />
+      <created>1732080736512</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732080736512</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated the new template, bringing over files from my old portfolio test" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated the new template, bringing over files from my old portfolio test" />
+  </component>
+</project>
