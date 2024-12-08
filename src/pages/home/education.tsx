@@ -37,7 +37,7 @@ const Education = () => {
                         variants={variants}
                         initial="hidden"
                         whileInView="visible"
-                        viewport={{once: false, amount: 0.5}}
+                        viewport={{once: false, amount: 0.1}}
             >
                 <h2 className={styles.educationTitle}>Education</h2>
                 <p className={styles.educationText}>
