@@ -55,7 +55,9 @@
     padding: 10px;
     font-size: 1rem;
     width: 100%;
+    resize: none;
     height: 100px !important;
+
 }
 
 .contactInput, .contactInputMsg {
