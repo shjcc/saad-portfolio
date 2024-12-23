@@ -16,20 +16,20 @@
     text-align: left;
 }
 
-.aboutContent:after {
-    content: "";
-    display: block;
-    margin: 2rem auto;
-    width: 60%;
-    padding-top: 20px;
-    border-bottom: 1px solid black;
-}
+/*.aboutContent:after {*/
+/*    content: "";*/
+/*    display: block;*/
+/*    margin: 2rem auto;*/
+/*    width: 60%;*/
+/*    padding-top: 20px;*/
+/*    border-bottom: 1px solid black;*/
+/*}*/
 
 .aboutTitle {
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: #333;
     margin-bottom: 1rem;
-    font-family: "Lato", sans-serif;
+    font-family: "VT323", monospace;
     font-weight: 800;
     font-style: normal;
 }
@@ -61,7 +61,6 @@
 
 .aboutAnchor {
     background-color: mediumpurple;
-    box-shadow: 0 5px 0 darkslateblue;
     border-radius: 5px;
     color: white;
     padding: 0.5em 1em;
@@ -70,6 +69,7 @@
 }
 .aboutAnchor:hover {
     text-decoration: none;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     cursor: pointer;
     background-color: darkorchid;
 

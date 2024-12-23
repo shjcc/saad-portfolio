@@ -13,11 +13,12 @@
 }
 
 .projectsTitle {
-    font-size: 2.5rem;
+    font-size: 3rem;
+    font-family: "VT323", monospace;
+    font-weight: 800;
+    font-style: normal;
     color: #333;
     margin-bottom: 1rem;
-    font-family: "Lato", sans-serif;
-    font-weight: 800;
     padding-bottom: 1rem;
 }
 
