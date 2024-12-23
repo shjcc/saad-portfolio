@@ -66,14 +66,16 @@
     padding: 0.5em 1em;
     position: relative;
     text-decoration: none;
+    transition: all 0.2s ease;
 }
+
 .aboutAnchor:hover {
     text-decoration: none;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     cursor: pointer;
     background-color: darkorchid;
-
 }
+
 .aboutAnchor:active {
     text-decoration: none;
     color: black;

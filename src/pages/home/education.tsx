@@ -41,8 +41,10 @@ const Education = () => {
             >
                 <h2 className={styles.educationTitle}>Education</h2>
                 <p className={styles.educationText}>
-                    Bachelor of Information Technology, majoring in Software Engineering, La Trobe University
-                    <br/>Graduate of 2024.
+                    <strong>Bachelor:</strong> Information Technology
+                    <br/><strong>Major:</strong> Software Engineering,
+                    <br/>La Trobe University
+                    <br/>Graduate of 2024
                 </p>
                 <ul className={styles.educationAchievements}>
                     <li>✔️ Career Ready Advantage Award recipient, 2024</li>

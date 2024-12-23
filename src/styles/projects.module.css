@@ -78,7 +78,7 @@
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
-.projectText {
+.projectText, .projectGameText {
     flex: 1;
     text-align: left;
     max-width: 50%;
@@ -86,12 +86,19 @@
 
 .projectTextMobile {
     position: relative;
-    left: 22%;
+    left: 30.6%;
     text-align: left;
     max-width: 50%;
 }
 
-.projectText h2, .projectTextMobile h2 {
+.projectGameText {
+    position: relative;
+    left: 8.7%;
+    text-align: left;
+    max-width: 45%;
+}
+
+.projectText h2, .projectTextMobile h2, .projectGameText h2 {
     font-size: 1.5rem;
     color: #333;
     margin-bottom: 0.5rem;
@@ -99,7 +106,7 @@
     font-weight: 700;
 }
 
-.projectText p, .projectTextMobile p {
+.projectText p, .projectTextMobile p, .projectGameText p {
     font-size: 1rem;
     color: #555;
     line-height: 1.5;
@@ -117,7 +124,7 @@
         max-width: 100%;
     }
 
-    .projectText {
+    .projectText, .projectGameText, .projectTextMobile {
         text-align: center;
     }
 }

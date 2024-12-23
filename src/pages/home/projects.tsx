@@ -17,7 +17,7 @@ const Project = () => {
                            target="_blank">
                             <Gif src={GameGif} alt="Game Gif"/>
                         </a>
-                        <div className={styles.projectText}>
+                        <div className={styles.projectGameText}>
                             <h2>Python 2D Game</h2>
                             <p>
                                 <strong>Language:</strong> Python, PyGame
