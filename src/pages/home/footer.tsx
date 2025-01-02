@@ -7,7 +7,7 @@ const Footer = () => {
         <section id="footer" className={styles.footerContainer}>
             <div className={styles.footerBar}>
                 <FontAwesomeIcon className={styles.footerIcon} icon={faCopyright} />
-                <p className={styles.footerText}> Saad Hussain 2024 </p>
+                <p className={styles.footerText}> Saad Hussain 2025 </p>
             </div>
         </section>
     )
