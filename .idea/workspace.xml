@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="969cbb25-a09f-4416-8059-f3936e76a8ef" name="Changes" comment="updated the new template, bringing over files from my old portfolio test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/footer.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +86,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.112" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.222" />
       </set>
     </attachedChunks>
   </component>
@@ -135,6 +136,10 @@
       <workItem from="1733802609700" duration="119000" />
       <workItem from="1734160110935" duration="598000" />
       <workItem from="1734987566599" duration="4612000" />
+      <workItem from="1735807369325" duration="736000" />
+      <workItem from="1735808412167" duration="1188000" />
+      <workItem from="1735875298406" duration="37000" />
+      <workItem from="1735875378372" duration="837000" />
     </task>
     <task id="LOCAL-00001" summary="updated the new template, bringing over files from my old portfolio test">
       <option name="closed" value="true" />
