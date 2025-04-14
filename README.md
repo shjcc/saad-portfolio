@@ -1,13 +1,19 @@
-# Saad Husasin Portfolio Website = React + TypeScript + Vite 
+# Saad Hussain Portfolio Website  
+> Built with **React**, **TypeScript**, and **Vite**
 
-## My portfolio webpage made using React.js and Vite along with Typescript
-## To view this hosted page: <a href="https://shjcc.github.io/saad-portfolio/" target="_blank" >https://shjcc.github.io/saad-portfolio/</a>
+This is my personal portfolio site showcasing my skills, projects, and experience — built using modern web technologies like **React.js**, **Vite**, and **TypeScript**.
 
-## If you wish to run this locally:
-### clone this repository to your local machine: `git clone https://github.com/shjcc/saad-portfolio`
-### Navigate to your local repository and install packages: `npm install`
-### Once successful, run the local instance: `npm run dev`
-### Navigate to the localhost and enjoy
+**Live Site**:  
+[www.saad-hussain.com](https://saad-hussain.com)
 
-<p>Tested Google Lighthouse results:</p>
-<img width="343" alt="image" src="https://github.com/user-attachments/assets/5c788f44-76f0-49d8-b74e-f1ecebdc4423" />
+---
+
+## Tech Stack
+
+- ⚛️ React (with Hooks)
+- ⚡ Vite for fast builds
+- 🧑‍🎓 TypeScript
+- 🎨 Custom CSS & Responsive Design
+- 🌐 Hosted via GitHub Pages with a custom domain
+
+
