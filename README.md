@@ -4,7 +4,7 @@
 This is my personal portfolio site showcasing my skills, projects, and experience — built using modern web technologies like **React.js**, **Vite**, and **TypeScript**.
 
 **Live Site**:  
-[www.saad-hussain.com](https://saad-hussain.com)
+[www.saad-portfolio.com](https://shjcc.github.io/saad-portfolio/)
 
 ---
 
@@ -14,6 +14,6 @@ This is my personal portfolio site showcasing my skills, projects, and experienc
 - ⚡ Vite for fast builds
 - 🧑‍🎓 TypeScript
 - 🎨 Custom CSS & Responsive Design
-- 🌐 Hosted via GitHub Pages with a custom domain
+- 🌐 Hosted via GitHub Pages 
 
 
